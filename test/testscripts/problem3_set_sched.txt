@@ -1,0 +1,44 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+TERMINAL:
+
+root@generic:/data/misc/page_trace # ./set_sched
+Please input the schedule policy you want to change (0-NORMAL, 1-FIFO, 2-RR, 6-RAS):6
+Current scheduling algorithm is SCHED_RAS
+Please input the process id(PID) you want to modify: 1112
+Start trace for task 1112
+Set process's priority: 0
+pre scheduler: SCHED_NORMAL
+cur scheduler: SCHED_RAS
+Switch finished successfully!
+10|root@generic:/data/misc/page_trace # ./set_sched
+Please input the schedule policy you want to change (0-NORMAL, 1-FIFO, 2-RR, 6-RAS):2
+Current scheduling algorithm is SCHED_RR
+Please input the process id(PID) you want to modify: 1112
+Set process's priority: 10
+pre scheduler: SCHED_RAS
+cur scheduler: SCHED_RR
+Switch finished successfully!
+10|root@generic:/data/misc/page_trace # ./set_sched
+Please input the schedule policy you want to change (0-NORMAL, 1-FIFO, 2-RR, 6-RAS):6
+Current scheduling algorithm is SCHED_RAS
+Please input the process id(PID) you want to modify: 1112
+Tracing! Wcount for this task: 0
+Set process's priority: 2
+pre scheduler: SCHED_RR
+cur scheduler: SCHED_RAS
+Switch finished successfully!
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+KERNEL:
+
+GET TRACE! Current thread:1112
+Get the current write counts:0
+START TRACE!
+Current pid:0
+Set the trace flag:1
+Write counts:0
+Switch to ras task: 1112!
+GET TRACE! Current thread:1112
+Get the current write counts:0
+Switch to ras task: 1112!

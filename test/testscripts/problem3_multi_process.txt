@@ -1,0 +1,1310 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+TERMINAL:
+
+root@generic:/data/misc/page_trace # ./multi
+Input number of pros: 6
+parent pid:  1171
+chd pid: 1172
+chd pid: 1173
+chd pid: 1174
+chd pid: 1175
+chd pid: 1176
+chd pid: 1177
+root@generic:/data/misc/page_trace # chd1175 STOP!
+chd1177 STOP!
+chd1172 STOP!
+chd1173 STOP!
+chd1174 STOP!
+chd1176 STOP!
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+KERNEL:
+
+Set Current RAS Task!
+Enqueue An New RAS Task!
+Switch to ras task: 1172!
+Set Current RAS Task!
+Enqueue An New RAS Task!
+Switch to ras task: 1173!
+START TRACE!
+Current pid:0
+Set the trace flag:1
+Write counts:0
+!task_tick||cpu: 0 pid: 1173 time_slice: 10 nr_running: 2 wcounts: 42
+Set Current RAS Task!
+Enqueue An New RAS Task!
+Switch to ras task: 1174!
+START TRACE!
+Current pid:0
+Set the trace flag:1
+Write counts:0
+Set Current RAS Task!
+Enqueue An New RAS Task!
+Switch to ras task: 1175!
+START TRACE!
+Current pid:0
+Set the trace flag:1
+Write counts:0
+!task_tick||cpu: 0 pid: 1175 time_slice: 10 nr_running: 4 wcounts: 33
+Set Current RAS Task!
+Enqueue An New RAS Task!
+Switch to ras task: 1176!
+START TRACE!
+Current pid:0
+Set the trace flag:1
+Write counts:0
+!task_tick||cpu: 0 pid: 1176 time_slice: 10 nr_running: 5 wcounts: 43
+Set Current RAS Task!
+Enqueue An New RAS Task!
+Switch to ras task: 1177!
+START TRACE!
+Current pid:0
+Set the trace flag:1
+Write counts:0
+START TRACE!
+Current pid:0
+Set the trace flag:1
+Write counts:0
+!task_tick||cpu: 0 pid: 1172 time_slice: 10 nr_running: 6 wcounts: 1
+!task_tick||cpu: 0 pid: 1172 time_slice: 9 nr_running: 6 wcounts: 136
+!task_tick||cpu: 0 pid: 1172 time_slice: 8 nr_running: 6 wcounts: 182
+!task_tick||cpu: 0 pid: 1172 time_slice: 7 nr_running: 6 wcounts: 266
+!task_tick||cpu: 0 pid: 1172 time_slice: 6 nr_running: 6 wcounts: 347
+!task_tick||cpu: 0 pid: 1172 time_slice: 5 nr_running: 6 wcounts: 420
+!task_tick||cpu: 0 pid: 1172 time_slice: 4 nr_running: 6 wcounts: 528
+!task_tick||cpu: 0 pid: 1172 time_slice: 3 nr_running: 6 wcounts: 635
+!task_tick||cpu: 0 pid: 1172 time_slice: 2 nr_running: 6 wcounts: 728
+!task_tick||cpu: 0 pid: 1172 time_slice: 1 nr_running: 6 wcounts: 801
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1173 time_slice: 9 nr_running: 6 wcounts: 154
+!task_tick||cpu: 0 pid: 1173 time_slice: 8 nr_running: 6 wcounts: 307
+!task_tick||cpu: 0 pid: 1173 time_slice: 7 nr_running: 6 wcounts: 430
+!task_tick||cpu: 0 pid: 1173 time_slice: 6 nr_running: 6 wcounts: 521
+!task_tick||cpu: 0 pid: 1173 time_slice: 5 nr_running: 6 wcounts: 619
+!task_tick||cpu: 0 pid: 1173 time_slice: 4 nr_running: 6 wcounts: 721
+!task_tick||cpu: 0 pid: 1173 time_slice: 3 nr_running: 6 wcounts: 798
+!task_tick||cpu: 0 pid: 1173 time_slice: 2 nr_running: 6 wcounts: 877
+!task_tick||cpu: 0 pid: 1173 time_slice: 1 nr_running: 6 wcounts: 992
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1174 time_slice: 9 nr_running: 6 wcounts: 129
+!task_tick||cpu: 0 pid: 1174 time_slice: 8 nr_running: 6 wcounts: 217
+!task_tick||cpu: 0 pid: 1174 time_slice: 7 nr_running: 6 wcounts: 337
+!task_tick||cpu: 0 pid: 1174 time_slice: 6 nr_running: 6 wcounts: 426
+!task_tick||cpu: 0 pid: 1174 time_slice: 5 nr_running: 6 wcounts: 509
+!task_tick||cpu: 0 pid: 1174 time_slice: 4 nr_running: 6 wcounts: 618
+!task_tick||cpu: 0 pid: 1174 time_slice: 3 nr_running: 6 wcounts: 741
+!task_tick||cpu: 0 pid: 1174 time_slice: 2 nr_running: 6 wcounts: 849
+!task_tick||cpu: 0 pid: 1174 time_slice: 1 nr_running: 6 wcounts: 950
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1175 time_slice: 9 nr_running: 6 wcounts: 162
+!task_tick||cpu: 0 pid: 1175 time_slice: 8 nr_running: 6 wcounts: 261
+!task_tick||cpu: 0 pid: 1175 time_slice: 7 nr_running: 6 wcounts: 495
+!task_tick||cpu: 0 pid: 1175 time_slice: 6 nr_running: 6 wcounts: 593
+!task_tick||cpu: 0 pid: 1175 time_slice: 5 nr_running: 6 wcounts: 686
+!task_tick||cpu: 0 pid: 1175 time_slice: 4 nr_running: 6 wcounts: 801
+!task_tick||cpu: 0 pid: 1175 time_slice: 3 nr_running: 6 wcounts: 902
+!task_tick||cpu: 0 pid: 1175 time_slice: 2 nr_running: 6 wcounts: 1042
+!task_tick||cpu: 0 pid: 1175 time_slice: 1 nr_running: 6 wcounts: 1115
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1176 time_slice: 9 nr_running: 6 wcounts: 151
+!task_tick||cpu: 0 pid: 1176 time_slice: 8 nr_running: 6 wcounts: 261
+!task_tick||cpu: 0 pid: 1176 time_slice: 7 nr_running: 6 wcounts: 296
+!task_tick||cpu: 0 pid: 1176 time_slice: 6 nr_running: 6 wcounts: 361
+!task_tick||cpu: 0 pid: 1176 time_slice: 5 nr_running: 6 wcounts: 444
+!task_tick||cpu: 0 pid: 1176 time_slice: 4 nr_running: 6 wcounts: 547
+!task_tick||cpu: 0 pid: 1176 time_slice: 3 nr_running: 6 wcounts: 631
+!task_tick||cpu: 0 pid: 1176 time_slice: 2 nr_running: 6 wcounts: 700
+!task_tick||cpu: 0 pid: 1176 time_slice: 1 nr_running: 6 wcounts: 787
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1177 time_slice: 10 nr_running: 6 wcounts: 110
+!task_tick||cpu: 0 pid: 1177 time_slice: 9 nr_running: 6 wcounts: 187
+!task_tick||cpu: 0 pid: 1177 time_slice: 8 nr_running: 6 wcounts: 313
+!task_tick||cpu: 0 pid: 1177 time_slice: 7 nr_running: 6 wcounts: 384
+!task_tick||cpu: 0 pid: 1177 time_slice: 6 nr_running: 6 wcounts: 507
+!task_tick||cpu: 0 pid: 1177 time_slice: 5 nr_running: 6 wcounts: 638
+!task_tick||cpu: 0 pid: 1177 time_slice: 4 nr_running: 6 wcounts: 714
+!task_tick||cpu: 0 pid: 1177 time_slice: 3 nr_running: 6 wcounts: 839
+!task_tick||cpu: 0 pid: 1177 time_slice: 2 nr_running: 6 wcounts: 959
+!task_tick||cpu: 0 pid: 1177 time_slice: 1 nr_running: 6 wcounts: 1032
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1172 time_slice: 73 nr_running: 6 wcounts: 895
+!task_tick||cpu: 0 pid: 1172 time_slice: 72 nr_running: 6 wcounts: 990
+!task_tick||cpu: 0 pid: 1172 time_slice: 71 nr_running: 6 wcounts: 1089
+!task_tick||cpu: 0 pid: 1172 time_slice: 70 nr_running: 6 wcounts: 1204
+!task_tick||cpu: 0 pid: 1172 time_slice: 69 nr_running: 6 wcounts: 1317
+!task_tick||cpu: 0 pid: 1172 time_slice: 68 nr_running: 6 wcounts: 1412
+!task_tick||cpu: 0 pid: 1172 time_slice: 67 nr_running: 6 wcounts: 1509
+!task_tick||cpu: 0 pid: 1172 time_slice: 66 nr_running: 6 wcounts: 1624
+!task_tick||cpu: 0 pid: 1172 time_slice: 65 nr_running: 6 wcounts: 1723
+!task_tick||cpu: 0 pid: 1172 time_slice: 64 nr_running: 6 wcounts: 1812
+!task_tick||cpu: 0 pid: 1172 time_slice: 63 nr_running: 6 wcounts: 1911
+!task_tick||cpu: 0 pid: 1172 time_slice: 62 nr_running: 6 wcounts: 2001
+!task_tick||cpu: 0 pid: 1172 time_slice: 61 nr_running: 6 wcounts: 2125
+!task_tick||cpu: 0 pid: 1172 time_slice: 60 nr_running: 6 wcounts: 2154
+!task_tick||cpu: 0 pid: 1172 time_slice: 59 nr_running: 6 wcounts: 2287
+!task_tick||cpu: 0 pid: 1172 time_slice: 58 nr_running: 6 wcounts: 2377
+!task_tick||cpu: 0 pid: 1172 time_slice: 57 nr_running: 6 wcounts: 2477
+!task_tick||cpu: 0 pid: 1172 time_slice: 56 nr_running: 6 wcounts: 2604
+!task_tick||cpu: 0 pid: 1172 time_slice: 55 nr_running: 6 wcounts: 2694
+!task_tick||cpu: 0 pid: 1172 time_slice: 54 nr_running: 6 wcounts: 2776
+!task_tick||cpu: 0 pid: 1172 time_slice: 53 nr_running: 6 wcounts: 2856
+!task_tick||cpu: 0 pid: 1172 time_slice: 52 nr_running: 6 wcounts: 2940
+!task_tick||cpu: 0 pid: 1172 time_slice: 51 nr_running: 6 wcounts: 3021
+!task_tick||cpu: 0 pid: 1172 time_slice: 50 nr_running: 6 wcounts: 3099
+!task_tick||cpu: 0 pid: 1172 time_slice: 49 nr_running: 6 wcounts: 3195
+!task_tick||cpu: 0 pid: 1172 time_slice: 48 nr_running: 6 wcounts: 3247
+!task_tick||cpu: 0 pid: 1172 time_slice: 47 nr_running: 6 wcounts: 3342
+!task_tick||cpu: 0 pid: 1172 time_slice: 46 nr_running: 6 wcounts: 3391
+!task_tick||cpu: 0 pid: 1172 time_slice: 45 nr_running: 6 wcounts: 3483
+!task_tick||cpu: 0 pid: 1172 time_slice: 44 nr_running: 6 wcounts: 3568
+!task_tick||cpu: 0 pid: 1172 time_slice: 43 nr_running: 6 wcounts: 3651
+!task_tick||cpu: 0 pid: 1172 time_slice: 42 nr_running: 6 wcounts: 3717
+!task_tick||cpu: 0 pid: 1172 time_slice: 41 nr_running: 6 wcounts: 3830
+!task_tick||cpu: 0 pid: 1172 time_slice: 40 nr_running: 6 wcounts: 3993
+!task_tick||cpu: 0 pid: 1172 time_slice: 39 nr_running: 6 wcounts: 4087
+!task_tick||cpu: 0 pid: 1172 time_slice: 38 nr_running: 6 wcounts: 4208
+!task_tick||cpu: 0 pid: 1172 time_slice: 37 nr_running: 6 wcounts: 4275
+!task_tick||cpu: 0 pid: 1172 time_slice: 36 nr_running: 6 wcounts: 4353
+!task_tick||cpu: 0 pid: 1172 time_slice: 35 nr_running: 6 wcounts: 4456
+!task_tick||cpu: 0 pid: 1172 time_slice: 34 nr_running: 6 wcounts: 4522
+!task_tick||cpu: 0 pid: 1172 time_slice: 33 nr_running: 6 wcounts: 4600
+!task_tick||cpu: 0 pid: 1172 time_slice: 32 nr_running: 6 wcounts: 4716
+!task_tick||cpu: 0 pid: 1172 time_slice: 31 nr_running: 6 wcounts: 4781
+!task_tick||cpu: 0 pid: 1172 time_slice: 30 nr_running: 6 wcounts: 4838
+!task_tick||cpu: 0 pid: 1172 time_slice: 29 nr_running: 6 wcounts: 4937
+!task_tick||cpu: 0 pid: 1172 time_slice: 28 nr_running: 6 wcounts: 5059
+!task_tick||cpu: 0 pid: 1172 time_slice: 27 nr_running: 6 wcounts: 5124
+!task_tick||cpu: 0 pid: 1172 time_slice: 26 nr_running: 6 wcounts: 5256
+!task_tick||cpu: 0 pid: 1172 time_slice: 25 nr_running: 6 wcounts: 5378
+!task_tick||cpu: 0 pid: 1172 time_slice: 24 nr_running: 6 wcounts: 5476
+!task_tick||cpu: 0 pid: 1172 time_slice: 23 nr_running: 6 wcounts: 5573
+!task_tick||cpu: 0 pid: 1172 time_slice: 22 nr_running: 6 wcounts: 5684
+!task_tick||cpu: 0 pid: 1172 time_slice: 21 nr_running: 6 wcounts: 5885
+!task_tick||cpu: 0 pid: 1172 time_slice: 20 nr_running: 6 wcounts: 6053
+!task_tick||cpu: 0 pid: 1172 time_slice: 19 nr_running: 6 wcounts: 6169
+!task_tick||cpu: 0 pid: 1172 time_slice: 18 nr_running: 6 wcounts: 6328
+!task_tick||cpu: 0 pid: 1172 time_slice: 17 nr_running: 6 wcounts: 6405
+!task_tick||cpu: 0 pid: 1172 time_slice: 16 nr_running: 6 wcounts: 6512
+!task_tick||cpu: 0 pid: 1172 time_slice: 15 nr_running: 6 wcounts: 6577
+!task_tick||cpu: 0 pid: 1172 time_slice: 14 nr_running: 6 wcounts: 6671
+!task_tick||cpu: 0 pid: 1172 time_slice: 13 nr_running: 6 wcounts: 6800
+!task_tick||cpu: 0 pid: 1172 time_slice: 12 nr_running: 6 wcounts: 6859
+!task_tick||cpu: 0 pid: 1172 time_slice: 11 nr_running: 6 wcounts: 6967
+!task_tick||cpu: 0 pid: 1172 time_slice: 10 nr_running: 6 wcounts: 7060
+!task_tick||cpu: 0 pid: 1172 time_slice: 9 nr_running: 6 wcounts: 7151
+!task_tick||cpu: 0 pid: 1172 time_slice: 8 nr_running: 6 wcounts: 7266
+!task_tick||cpu: 0 pid: 1172 time_slice: 7 nr_running: 6 wcounts: 7346
+!task_tick||cpu: 0 pid: 1172 time_slice: 6 nr_running: 6 wcounts: 7420
+!task_tick||cpu: 0 pid: 1172 time_slice: 5 nr_running: 6 wcounts: 7499
+!task_tick||cpu: 0 pid: 1172 time_slice: 4 nr_running: 6 wcounts: 7585
+!task_tick||cpu: 0 pid: 1172 time_slice: 3 nr_running: 6 wcounts: 7623
+!task_tick||cpu: 0 pid: 1172 time_slice: 2 nr_running: 6 wcounts: 7681
+!task_tick||cpu: 0 pid: 1172 time_slice: 1 nr_running: 6 wcounts: 7782
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1173 time_slice: 73 nr_running: 6 wcounts: 1076
+!task_tick||cpu: 0 pid: 1173 time_slice: 72 nr_running: 6 wcounts: 1182
+!task_tick||cpu: 0 pid: 1173 time_slice: 71 nr_running: 6 wcounts: 1262
+!task_tick||cpu: 0 pid: 1173 time_slice: 70 nr_running: 6 wcounts: 1370
+!task_tick||cpu: 0 pid: 1173 time_slice: 69 nr_running: 6 wcounts: 1461
+!task_tick||cpu: 0 pid: 1173 time_slice: 68 nr_running: 6 wcounts: 1549
+!task_tick||cpu: 0 pid: 1173 time_slice: 67 nr_running: 6 wcounts: 1682
+!task_tick||cpu: 0 pid: 1173 time_slice: 66 nr_running: 6 wcounts: 1745
+!task_tick||cpu: 0 pid: 1173 time_slice: 65 nr_running: 6 wcounts: 1807
+!task_tick||cpu: 0 pid: 1173 time_slice: 64 nr_running: 6 wcounts: 1854
+!task_tick||cpu: 0 pid: 1173 time_slice: 63 nr_running: 6 wcounts: 1954
+!task_tick||cpu: 0 pid: 1173 time_slice: 62 nr_running: 6 wcounts: 2041
+!task_tick||cpu: 0 pid: 1173 time_slice: 61 nr_running: 6 wcounts: 2118
+!task_tick||cpu: 0 pid: 1173 time_slice: 60 nr_running: 6 wcounts: 2230
+!task_tick||cpu: 0 pid: 1173 time_slice: 59 nr_running: 6 wcounts: 2280
+!task_tick||cpu: 0 pid: 1173 time_slice: 58 nr_running: 6 wcounts: 2413
+!task_tick||cpu: 0 pid: 1173 time_slice: 57 nr_running: 6 wcounts: 2515
+!task_tick||cpu: 0 pid: 1173 time_slice: 56 nr_running: 6 wcounts: 2582
+!task_tick||cpu: 0 pid: 1173 time_slice: 55 nr_running: 6 wcounts: 2681
+!task_tick||cpu: 0 pid: 1173 time_slice: 54 nr_running: 6 wcounts: 2767
+!task_tick||cpu: 0 pid: 1173 time_slice: 53 nr_running: 6 wcounts: 2867
+!task_tick||cpu: 0 pid: 1173 time_slice: 52 nr_running: 6 wcounts: 2949
+!task_tick||cpu: 0 pid: 1173 time_slice: 51 nr_running: 6 wcounts: 3060
+!task_tick||cpu: 0 pid: 1173 time_slice: 50 nr_running: 6 wcounts: 3150
+!task_tick||cpu: 0 pid: 1173 time_slice: 49 nr_running: 6 wcounts: 3246
+!task_tick||cpu: 0 pid: 1173 time_slice: 48 nr_running: 6 wcounts: 3330
+!task_tick||cpu: 0 pid: 1173 time_slice: 47 nr_running: 6 wcounts: 3391
+!task_tick||cpu: 0 pid: 1173 time_slice: 46 nr_running: 6 wcounts: 3483
+!task_tick||cpu: 0 pid: 1173 time_slice: 45 nr_running: 6 wcounts: 3573
+!task_tick||cpu: 0 pid: 1173 time_slice: 44 nr_running: 6 wcounts: 3631
+!task_tick||cpu: 0 pid: 1173 time_slice: 43 nr_running: 6 wcounts: 3722
+!task_tick||cpu: 0 pid: 1173 time_slice: 42 nr_running: 6 wcounts: 3823
+!task_tick||cpu: 0 pid: 1173 time_slice: 41 nr_running: 6 wcounts: 3952
+!task_tick||cpu: 0 pid: 1173 time_slice: 40 nr_running: 6 wcounts: 4036
+!task_tick||cpu: 0 pid: 1173 time_slice: 39 nr_running: 6 wcounts: 4122
+!task_tick||cpu: 0 pid: 1173 time_slice: 38 nr_running: 6 wcounts: 4231
+!task_tick||cpu: 0 pid: 1173 time_slice: 37 nr_running: 6 wcounts: 4335
+!task_tick||cpu: 0 pid: 1173 time_slice: 36 nr_running: 6 wcounts: 4445
+!task_tick||cpu: 0 pid: 1173 time_slice: 35 nr_running: 6 wcounts: 4557
+!task_tick||cpu: 0 pid: 1173 time_slice: 34 nr_running: 6 wcounts: 4673
+!task_tick||cpu: 0 pid: 1173 time_slice: 33 nr_running: 6 wcounts: 4752
+!task_tick||cpu: 0 pid: 1173 time_slice: 32 nr_running: 6 wcounts: 4848
+!task_tick||cpu: 0 pid: 1173 time_slice: 31 nr_running: 6 wcounts: 4925
+!task_tick||cpu: 0 pid: 1173 time_slice: 30 nr_running: 6 wcounts: 5017
+!task_tick||cpu: 0 pid: 1173 time_slice: 29 nr_running: 6 wcounts: 5106
+!task_tick||cpu: 0 pid: 1173 time_slice: 28 nr_running: 6 wcounts: 5166
+!task_tick||cpu: 0 pid: 1173 time_slice: 27 nr_running: 6 wcounts: 5260
+!task_tick||cpu: 0 pid: 1173 time_slice: 26 nr_running: 6 wcounts: 5344
+!task_tick||cpu: 0 pid: 1173 time_slice: 25 nr_running: 6 wcounts: 5407
+!task_tick||cpu: 0 pid: 1173 time_slice: 24 nr_running: 6 wcounts: 5465
+!task_tick||cpu: 0 pid: 1173 time_slice: 23 nr_running: 6 wcounts: 5561
+!task_tick||cpu: 0 pid: 1173 time_slice: 22 nr_running: 6 wcounts: 5693
+!task_tick||cpu: 0 pid: 1173 time_slice: 21 nr_running: 6 wcounts: 5830
+!task_tick||cpu: 0 pid: 1173 time_slice: 20 nr_running: 6 wcounts: 5924
+!task_tick||cpu: 0 pid: 1173 time_slice: 19 nr_running: 6 wcounts: 5989
+!task_tick||cpu: 0 pid: 1173 time_slice: 18 nr_running: 6 wcounts: 6129
+!task_tick||cpu: 0 pid: 1173 time_slice: 17 nr_running: 6 wcounts: 6234
+!task_tick||cpu: 0 pid: 1173 time_slice: 16 nr_running: 6 wcounts: 6332
+!task_tick||cpu: 0 pid: 1173 time_slice: 15 nr_running: 6 wcounts: 6440
+!task_tick||cpu: 0 pid: 1173 time_slice: 14 nr_running: 6 wcounts: 6570
+!task_tick||cpu: 0 pid: 1173 time_slice: 13 nr_running: 6 wcounts: 6626
+!task_tick||cpu: 0 pid: 1173 time_slice: 12 nr_running: 6 wcounts: 6732
+!task_tick||cpu: 0 pid: 1173 time_slice: 11 nr_running: 6 wcounts: 6871
+!task_tick||cpu: 0 pid: 1173 time_slice: 10 nr_running: 6 wcounts: 6953
+!task_tick||cpu: 0 pid: 1173 time_slice: 9 nr_running: 6 wcounts: 7069
+!task_tick||cpu: 0 pid: 1173 time_slice: 8 nr_running: 6 wcounts: 7174
+!task_tick||cpu: 0 pid: 1173 time_slice: 7 nr_running: 6 wcounts: 7285
+!task_tick||cpu: 0 pid: 1173 time_slice: 6 nr_running: 6 wcounts: 7351
+!task_tick||cpu: 0 pid: 1173 time_slice: 5 nr_running: 6 wcounts: 7486
+!task_tick||cpu: 0 pid: 1173 time_slice: 4 nr_running: 6 wcounts: 7583
+!task_tick||cpu: 0 pid: 1173 time_slice: 3 nr_running: 6 wcounts: 7686
+!task_tick||cpu: 0 pid: 1173 time_slice: 2 nr_running: 6 wcounts: 7776
+!task_tick||cpu: 0 pid: 1173 time_slice: 1 nr_running: 6 wcounts: 7878
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1174 time_slice: 73 nr_running: 6 wcounts: 1024
+!task_tick||cpu: 0 pid: 1174 time_slice: 72 nr_running: 6 wcounts: 1044
+!task_tick||cpu: 0 pid: 1174 time_slice: 71 nr_running: 6 wcounts: 1166
+!task_tick||cpu: 0 pid: 1174 time_slice: 70 nr_running: 6 wcounts: 1182
+!task_tick||cpu: 0 pid: 1174 time_slice: 69 nr_running: 6 wcounts: 1264
+!task_tick||cpu: 0 pid: 1174 time_slice: 68 nr_running: 6 wcounts: 1319
+!task_tick||cpu: 0 pid: 1174 time_slice: 67 nr_running: 6 wcounts: 1406
+!task_tick||cpu: 0 pid: 1174 time_slice: 66 nr_running: 6 wcounts: 1498
+!task_tick||cpu: 0 pid: 1174 time_slice: 65 nr_running: 6 wcounts: 1609
+!task_tick||cpu: 0 pid: 1174 time_slice: 64 nr_running: 6 wcounts: 1698
+!task_tick||cpu: 0 pid: 1174 time_slice: 63 nr_running: 6 wcounts: 1789
+!task_tick||cpu: 0 pid: 1174 time_slice: 62 nr_running: 6 wcounts: 1939
+!task_tick||cpu: 0 pid: 1174 time_slice: 61 nr_running: 6 wcounts: 2013
+!task_tick||cpu: 0 pid: 1174 time_slice: 60 nr_running: 6 wcounts: 2099
+!task_tick||cpu: 0 pid: 1174 time_slice: 59 nr_running: 6 wcounts: 2195
+!task_tick||cpu: 0 pid: 1174 time_slice: 58 nr_running: 6 wcounts: 2288
+!task_tick||cpu: 0 pid: 1174 time_slice: 57 nr_running: 6 wcounts: 2390
+!task_tick||cpu: 0 pid: 1174 time_slice: 56 nr_running: 6 wcounts: 2513
+!task_tick||cpu: 0 pid: 1174 time_slice: 55 nr_running: 6 wcounts: 2640
+!task_tick||cpu: 0 pid: 1174 time_slice: 54 nr_running: 6 wcounts: 2717
+!task_tick||cpu: 0 pid: 1174 time_slice: 53 nr_running: 6 wcounts: 2788
+!task_tick||cpu: 0 pid: 1174 time_slice: 52 nr_running: 6 wcounts: 2921
+!task_tick||cpu: 0 pid: 1174 time_slice: 51 nr_running: 6 wcounts: 2990
+!task_tick||cpu: 0 pid: 1174 time_slice: 50 nr_running: 6 wcounts: 3123
+!task_tick||cpu: 0 pid: 1174 time_slice: 49 nr_running: 6 wcounts: 3207
+!task_tick||cpu: 0 pid: 1174 time_slice: 48 nr_running: 6 wcounts: 3300
+!task_tick||cpu: 0 pid: 1174 time_slice: 47 nr_running: 6 wcounts: 3355
+!task_tick||cpu: 0 pid: 1174 time_slice: 46 nr_running: 6 wcounts: 3453
+!task_tick||cpu: 0 pid: 1174 time_slice: 45 nr_running: 6 wcounts: 3565
+!task_tick||cpu: 0 pid: 1174 time_slice: 44 nr_running: 6 wcounts: 3641
+!task_tick||cpu: 0 pid: 1174 time_slice: 43 nr_running: 6 wcounts: 3763
+!task_tick||cpu: 0 pid: 1174 time_slice: 42 nr_running: 6 wcounts: 3860
+!task_tick||cpu: 0 pid: 1174 time_slice: 41 nr_running: 6 wcounts: 3967
+!task_tick||cpu: 0 pid: 1174 time_slice: 40 nr_running: 6 wcounts: 4157
+!task_tick||cpu: 0 pid: 1174 time_slice: 39 nr_running: 6 wcounts: 4272
+!task_tick||cpu: 0 pid: 1174 time_slice: 38 nr_running: 6 wcounts: 4382
+!task_tick||cpu: 0 pid: 1174 time_slice: 37 nr_running: 6 wcounts: 4474
+!task_tick||cpu: 0 pid: 1174 time_slice: 36 nr_running: 6 wcounts: 4572
+!task_tick||cpu: 0 pid: 1174 time_slice: 35 nr_running: 6 wcounts: 4693
+!task_tick||cpu: 0 pid: 1174 time_slice: 34 nr_running: 6 wcounts: 4852
+!task_tick||cpu: 0 pid: 1174 time_slice: 33 nr_running: 6 wcounts: 4973
+!task_tick||cpu: 0 pid: 1174 time_slice: 32 nr_running: 6 wcounts: 5106
+!task_tick||cpu: 0 pid: 1174 time_slice: 31 nr_running: 6 wcounts: 5201
+!task_tick||cpu: 0 pid: 1174 time_slice: 30 nr_running: 6 wcounts: 5326
+!task_tick||cpu: 0 pid: 1174 time_slice: 29 nr_running: 6 wcounts: 5437
+!task_tick||cpu: 0 pid: 1174 time_slice: 28 nr_running: 6 wcounts: 5524
+!task_tick||cpu: 0 pid: 1174 time_slice: 27 nr_running: 6 wcounts: 5661
+!task_tick||cpu: 0 pid: 1174 time_slice: 26 nr_running: 6 wcounts: 5760
+!task_tick||cpu: 0 pid: 1174 time_slice: 25 nr_running: 6 wcounts: 5886
+!task_tick||cpu: 0 pid: 1174 time_slice: 24 nr_running: 6 wcounts: 5946
+!task_tick||cpu: 0 pid: 1174 time_slice: 23 nr_running: 6 wcounts: 6058
+!task_tick||cpu: 0 pid: 1174 time_slice: 22 nr_running: 6 wcounts: 6178
+!task_tick||cpu: 0 pid: 1174 time_slice: 21 nr_running: 6 wcounts: 6253
+!task_tick||cpu: 0 pid: 1174 time_slice: 20 nr_running: 6 wcounts: 6371
+!task_tick||cpu: 0 pid: 1174 time_slice: 19 nr_running: 6 wcounts: 6494
+!task_tick||cpu: 0 pid: 1174 time_slice: 18 nr_running: 6 wcounts: 6589
+!task_tick||cpu: 0 pid: 1174 time_slice: 17 nr_running: 6 wcounts: 6721
+!task_tick||cpu: 0 pid: 1174 time_slice: 16 nr_running: 6 wcounts: 6831
+!task_tick||cpu: 0 pid: 1174 time_slice: 15 nr_running: 6 wcounts: 6924
+!task_tick||cpu: 0 pid: 1174 time_slice: 14 nr_running: 6 wcounts: 7013
+!task_tick||cpu: 0 pid: 1174 time_slice: 13 nr_running: 6 wcounts: 7141
+!task_tick||cpu: 0 pid: 1174 time_slice: 12 nr_running: 6 wcounts: 7243
+!task_tick||cpu: 0 pid: 1174 time_slice: 11 nr_running: 6 wcounts: 7339
+!task_tick||cpu: 0 pid: 1174 time_slice: 10 nr_running: 6 wcounts: 7425
+!task_tick||cpu: 0 pid: 1174 time_slice: 9 nr_running: 6 wcounts: 7509
+!task_tick||cpu: 0 pid: 1174 time_slice: 8 nr_running: 6 wcounts: 7614
+!task_tick||cpu: 0 pid: 1174 time_slice: 7 nr_running: 6 wcounts: 7702
+!task_tick||cpu: 0 pid: 1174 time_slice: 6 nr_running: 6 wcounts: 7831
+!task_tick||cpu: 0 pid: 1174 time_slice: 5 nr_running: 6 wcounts: 7929
+!task_tick||cpu: 0 pid: 1174 time_slice: 4 nr_running: 6 wcounts: 8047
+!task_tick||cpu: 0 pid: 1174 time_slice: 3 nr_running: 6 wcounts: 8167
+!task_tick||cpu: 0 pid: 1174 time_slice: 2 nr_running: 6 wcounts: 8287
+!task_tick||cpu: 0 pid: 1174 time_slice: 1 nr_running: 6 wcounts: 8375
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1175 time_slice: 73 nr_running: 6 wcounts: 1210
+!task_tick||cpu: 0 pid: 1175 time_slice: 72 nr_running: 6 wcounts: 1292
+!task_tick||cpu: 0 pid: 1175 time_slice: 71 nr_running: 6 wcounts: 1387
+!task_tick||cpu: 0 pid: 1175 time_slice: 70 nr_running: 6 wcounts: 1514
+!task_tick||cpu: 0 pid: 1175 time_slice: 69 nr_running: 6 wcounts: 1601
+!task_tick||cpu: 0 pid: 1175 time_slice: 68 nr_running: 6 wcounts: 1709
+!task_tick||cpu: 0 pid: 1175 time_slice: 67 nr_running: 6 wcounts: 1799
+!task_tick||cpu: 0 pid: 1175 time_slice: 66 nr_running: 6 wcounts: 1886
+!task_tick||cpu: 0 pid: 1175 time_slice: 65 nr_running: 6 wcounts: 2008
+!task_tick||cpu: 0 pid: 1175 time_slice: 64 nr_running: 6 wcounts: 2066
+!task_tick||cpu: 0 pid: 1175 time_slice: 63 nr_running: 6 wcounts: 2148
+!task_tick||cpu: 0 pid: 1175 time_slice: 62 nr_running: 6 wcounts: 2246
+!task_tick||cpu: 0 pid: 1175 time_slice: 61 nr_running: 6 wcounts: 2334
+!task_tick||cpu: 0 pid: 1175 time_slice: 60 nr_running: 6 wcounts: 2429
+!task_tick||cpu: 0 pid: 1175 time_slice: 59 nr_running: 6 wcounts: 2511
+!task_tick||cpu: 0 pid: 1175 time_slice: 58 nr_running: 6 wcounts: 2635
+!task_tick||cpu: 0 pid: 1175 time_slice: 57 nr_running: 6 wcounts: 2753
+!task_tick||cpu: 0 pid: 1175 time_slice: 56 nr_running: 6 wcounts: 2851
+!task_tick||cpu: 0 pid: 1175 time_slice: 55 nr_running: 6 wcounts: 2944
+!task_tick||cpu: 0 pid: 1175 time_slice: 54 nr_running: 6 wcounts: 3039
+!task_tick||cpu: 0 pid: 1175 time_slice: 53 nr_running: 6 wcounts: 3134
+!task_tick||cpu: 0 pid: 1175 time_slice: 52 nr_running: 6 wcounts: 3279
+!task_tick||cpu: 0 pid: 1175 time_slice: 51 nr_running: 6 wcounts: 3371
+!task_tick||cpu: 0 pid: 1175 time_slice: 50 nr_running: 6 wcounts: 3501
+!task_tick||cpu: 0 pid: 1175 time_slice: 49 nr_running: 6 wcounts: 3639
+!task_tick||cpu: 0 pid: 1175 time_slice: 48 nr_running: 6 wcounts: 3729
+!task_tick||cpu: 0 pid: 1175 time_slice: 47 nr_running: 6 wcounts: 3749
+!task_tick||cpu: 0 pid: 1175 time_slice: 46 nr_running: 6 wcounts: 3852
+!task_tick||cpu: 0 pid: 1175 time_slice: 45 nr_running: 6 wcounts: 3957
+!task_tick||cpu: 0 pid: 1175 time_slice: 44 nr_running: 6 wcounts: 4108
+!task_tick||cpu: 0 pid: 1175 time_slice: 43 nr_running: 6 wcounts: 4175
+!task_tick||cpu: 0 pid: 1175 time_slice: 42 nr_running: 6 wcounts: 4256
+!task_tick||cpu: 0 pid: 1175 time_slice: 41 nr_running: 6 wcounts: 4383
+!task_tick||cpu: 0 pid: 1175 time_slice: 40 nr_running: 6 wcounts: 4489
+!task_tick||cpu: 0 pid: 1175 time_slice: 39 nr_running: 6 wcounts: 4596
+!task_tick||cpu: 0 pid: 1175 time_slice: 38 nr_running: 6 wcounts: 4714
+!task_tick||cpu: 0 pid: 1175 time_slice: 37 nr_running: 6 wcounts: 4838
+!task_tick||cpu: 0 pid: 1175 time_slice: 36 nr_running: 6 wcounts: 4904
+!task_tick||cpu: 0 pid: 1175 time_slice: 35 nr_running: 6 wcounts: 4995
+!task_tick||cpu: 0 pid: 1175 time_slice: 34 nr_running: 6 wcounts: 5121
+!task_tick||cpu: 0 pid: 1175 time_slice: 33 nr_running: 6 wcounts: 5234
+!task_tick||cpu: 0 pid: 1175 time_slice: 32 nr_running: 6 wcounts: 5309
+!task_tick||cpu: 0 pid: 1175 time_slice: 31 nr_running: 6 wcounts: 5423
+!task_tick||cpu: 0 pid: 1175 time_slice: 30 nr_running: 6 wcounts: 5502
+!task_tick||cpu: 0 pid: 1175 time_slice: 29 nr_running: 6 wcounts: 5598
+!task_tick||cpu: 0 pid: 1175 time_slice: 28 nr_running: 6 wcounts: 5720
+!task_tick||cpu: 0 pid: 1175 time_slice: 27 nr_running: 6 wcounts: 5864
+!task_tick||cpu: 0 pid: 1175 time_slice: 26 nr_running: 6 wcounts: 5956
+!task_tick||cpu: 0 pid: 1175 time_slice: 25 nr_running: 6 wcounts: 6040
+!task_tick||cpu: 0 pid: 1175 time_slice: 24 nr_running: 6 wcounts: 6170
+!task_tick||cpu: 0 pid: 1175 time_slice: 23 nr_running: 6 wcounts: 6265
+!task_tick||cpu: 0 pid: 1175 time_slice: 22 nr_running: 6 wcounts: 6349
+!task_tick||cpu: 0 pid: 1175 time_slice: 21 nr_running: 6 wcounts: 6426
+!task_tick||cpu: 0 pid: 1175 time_slice: 20 nr_running: 6 wcounts: 6532
+!task_tick||cpu: 0 pid: 1175 time_slice: 19 nr_running: 6 wcounts: 6598
+!task_tick||cpu: 0 pid: 1175 time_slice: 18 nr_running: 6 wcounts: 6696
+!task_tick||cpu: 0 pid: 1175 time_slice: 17 nr_running: 6 wcounts: 6793
+!task_tick||cpu: 0 pid: 1175 time_slice: 16 nr_running: 6 wcounts: 6838
+!task_tick||cpu: 0 pid: 1175 time_slice: 15 nr_running: 6 wcounts: 6950
+!task_tick||cpu: 0 pid: 1175 time_slice: 14 nr_running: 6 wcounts: 7035
+!task_tick||cpu: 0 pid: 1175 time_slice: 13 nr_running: 6 wcounts: 7149
+!task_tick||cpu: 0 pid: 1175 time_slice: 12 nr_running: 6 wcounts: 7283
+!task_tick||cpu: 0 pid: 1175 time_slice: 11 nr_running: 6 wcounts: 7337
+!task_tick||cpu: 0 pid: 1175 time_slice: 10 nr_running: 6 wcounts: 7395
+!task_tick||cpu: 0 pid: 1175 time_slice: 9 nr_running: 6 wcounts: 7473
+!task_tick||cpu: 0 pid: 1175 time_slice: 8 nr_running: 6 wcounts: 7594
+!task_tick||cpu: 0 pid: 1175 time_slice: 7 nr_running: 6 wcounts: 7689
+!task_tick||cpu: 0 pid: 1175 time_slice: 6 nr_running: 6 wcounts: 7810
+!task_tick||cpu: 0 pid: 1175 time_slice: 5 nr_running: 6 wcounts: 7915
+!task_tick||cpu: 0 pid: 1175 time_slice: 4 nr_running: 6 wcounts: 8006
+!task_tick||cpu: 0 pid: 1175 time_slice: 3 nr_running: 6 wcounts: 8098
+!task_tick||cpu: 0 pid: 1175 time_slice: 2 nr_running: 6 wcounts: 8204
+!task_tick||cpu: 0 pid: 1175 time_slice: 1 nr_running: 6 wcounts: 8287
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1176 time_slice: 73 nr_running: 6 wcounts: 900
+!task_tick||cpu: 0 pid: 1176 time_slice: 72 nr_running: 6 wcounts: 987
+!task_tick||cpu: 0 pid: 1176 time_slice: 71 nr_running: 6 wcounts: 1081
+!task_tick||cpu: 0 pid: 1176 time_slice: 70 nr_running: 6 wcounts: 1178
+!task_tick||cpu: 0 pid: 1176 time_slice: 69 nr_running: 6 wcounts: 1250
+!task_tick||cpu: 0 pid: 1176 time_slice: 68 nr_running: 6 wcounts: 1349
+!task_tick||cpu: 0 pid: 1176 time_slice: 67 nr_running: 6 wcounts: 1422
+!task_tick||cpu: 0 pid: 1176 time_slice: 66 nr_running: 6 wcounts: 1543
+!task_tick||cpu: 0 pid: 1176 time_slice: 65 nr_running: 6 wcounts: 1634
+!task_tick||cpu: 0 pid: 1176 time_slice: 64 nr_running: 6 wcounts: 1725
+!task_tick||cpu: 0 pid: 1176 time_slice: 63 nr_running: 6 wcounts: 1833
+!task_tick||cpu: 0 pid: 1176 time_slice: 62 nr_running: 6 wcounts: 1888
+!task_tick||cpu: 0 pid: 1176 time_slice: 61 nr_running: 6 wcounts: 2004
+!task_tick||cpu: 0 pid: 1176 time_slice: 60 nr_running: 6 wcounts: 2100
+!task_tick||cpu: 0 pid: 1176 time_slice: 59 nr_running: 6 wcounts: 2182
+!task_tick||cpu: 0 pid: 1176 time_slice: 58 nr_running: 6 wcounts: 2252
+!task_tick||cpu: 0 pid: 1176 time_slice: 57 nr_running: 6 wcounts: 2333
+!task_tick||cpu: 0 pid: 1176 time_slice: 56 nr_running: 6 wcounts: 2422
+!task_tick||cpu: 0 pid: 1176 time_slice: 55 nr_running: 6 wcounts: 2501
+!task_tick||cpu: 0 pid: 1176 time_slice: 54 nr_running: 6 wcounts: 2639
+!task_tick||cpu: 0 pid: 1176 time_slice: 53 nr_running: 6 wcounts: 2740
+!task_tick||cpu: 0 pid: 1176 time_slice: 52 nr_running: 6 wcounts: 2815
+!task_tick||cpu: 0 pid: 1176 time_slice: 51 nr_running: 6 wcounts: 2946
+!task_tick||cpu: 0 pid: 1176 time_slice: 50 nr_running: 6 wcounts: 3072
+!task_tick||cpu: 0 pid: 1176 time_slice: 49 nr_running: 6 wcounts: 3150
+!task_tick||cpu: 0 pid: 1176 time_slice: 48 nr_running: 6 wcounts: 3278
+!task_tick||cpu: 0 pid: 1176 time_slice: 47 nr_running: 6 wcounts: 3387
+!task_tick||cpu: 0 pid: 1176 time_slice: 46 nr_running: 6 wcounts: 3478
+!task_tick||cpu: 0 pid: 1176 time_slice: 45 nr_running: 6 wcounts: 3565
+!task_tick||cpu: 0 pid: 1176 time_slice: 44 nr_running: 6 wcounts: 3582
+!task_tick||cpu: 0 pid: 1176 time_slice: 43 nr_running: 6 wcounts: 3700
+!task_tick||cpu: 0 pid: 1176 time_slice: 42 nr_running: 6 wcounts: 3767
+!task_tick||cpu: 0 pid: 1176 time_slice: 41 nr_running: 6 wcounts: 3900
+!task_tick||cpu: 0 pid: 1176 time_slice: 40 nr_running: 6 wcounts: 4002
+!task_tick||cpu: 0 pid: 1176 time_slice: 39 nr_running: 6 wcounts: 4101
+!task_tick||cpu: 0 pid: 1176 time_slice: 38 nr_running: 6 wcounts: 4193
+!task_tick||cpu: 0 pid: 1176 time_slice: 37 nr_running: 6 wcounts: 4321
+!task_tick||cpu: 0 pid: 1176 time_slice: 36 nr_running: 6 wcounts: 4410
+!task_tick||cpu: 0 pid: 1176 time_slice: 35 nr_running: 6 wcounts: 4474
+!task_tick||cpu: 0 pid: 1176 time_slice: 34 nr_running: 6 wcounts: 4574
+!task_tick||cpu: 0 pid: 1176 time_slice: 33 nr_running: 6 wcounts: 4657
+!task_tick||cpu: 0 pid: 1176 time_slice: 32 nr_running: 6 wcounts: 4731
+!task_tick||cpu: 0 pid: 1176 time_slice: 31 nr_running: 6 wcounts: 4863
+!task_tick||cpu: 0 pid: 1176 time_slice: 30 nr_running: 6 wcounts: 4930
+!task_tick||cpu: 0 pid: 1176 time_slice: 29 nr_running: 6 wcounts: 4983
+!task_tick||cpu: 0 pid: 1176 time_slice: 28 nr_running: 6 wcounts: 5070
+!task_tick||cpu: 0 pid: 1176 time_slice: 27 nr_running: 6 wcounts: 5175
+!task_tick||cpu: 0 pid: 1176 time_slice: 26 nr_running: 6 wcounts: 5297
+!task_tick||cpu: 0 pid: 1176 time_slice: 25 nr_running: 6 wcounts: 5400
+!task_tick||cpu: 0 pid: 1176 time_slice: 24 nr_running: 6 wcounts: 5511
+!task_tick||cpu: 0 pid: 1176 time_slice: 23 nr_running: 6 wcounts: 5593
+!task_tick||cpu: 0 pid: 1176 time_slice: 22 nr_running: 6 wcounts: 5709
+!task_tick||cpu: 0 pid: 1176 time_slice: 21 nr_running: 6 wcounts: 5807
+!task_tick||cpu: 0 pid: 1176 time_slice: 20 nr_running: 6 wcounts: 5875
+!task_tick||cpu: 0 pid: 1176 time_slice: 19 nr_running: 6 wcounts: 5984
+!task_tick||cpu: 0 pid: 1176 time_slice: 18 nr_running: 6 wcounts: 6085
+!task_tick||cpu: 0 pid: 1176 time_slice: 17 nr_running: 6 wcounts: 6175
+!task_tick||cpu: 0 pid: 1176 time_slice: 16 nr_running: 6 wcounts: 6265
+!task_tick||cpu: 0 pid: 1176 time_slice: 15 nr_running: 6 wcounts: 6367
+!task_tick||cpu: 0 pid: 1176 time_slice: 14 nr_running: 6 wcounts: 6407
+!task_tick||cpu: 0 pid: 1176 time_slice: 13 nr_running: 6 wcounts: 6497
+!task_tick||cpu: 0 pid: 1176 time_slice: 12 nr_running: 6 wcounts: 6638
+!task_tick||cpu: 0 pid: 1176 time_slice: 11 nr_running: 6 wcounts: 6704
+!task_tick||cpu: 0 pid: 1176 time_slice: 10 nr_running: 6 wcounts: 6791
+!task_tick||cpu: 0 pid: 1176 time_slice: 9 nr_running: 6 wcounts: 6880
+!task_tick||cpu: 0 pid: 1176 time_slice: 8 nr_running: 6 wcounts: 6997
+!task_tick||cpu: 0 pid: 1176 time_slice: 7 nr_running: 6 wcounts: 7060
+!task_tick||cpu: 0 pid: 1176 time_slice: 6 nr_running: 6 wcounts: 7148
+!task_tick||cpu: 0 pid: 1176 time_slice: 5 nr_running: 6 wcounts: 7235
+!task_tick||cpu: 0 pid: 1176 time_slice: 4 nr_running: 6 wcounts: 7298
+!task_tick||cpu: 0 pid: 1176 time_slice: 3 nr_running: 6 wcounts: 7398
+!task_tick||cpu: 0 pid: 1176 time_slice: 2 nr_running: 6 wcounts: 7475
+!task_tick||cpu: 0 pid: 1176 time_slice: 1 nr_running: 6 wcounts: 7544
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1177 time_slice: 73 nr_running: 6 wcounts: 1117
+!task_tick||cpu: 0 pid: 1177 time_slice: 72 nr_running: 6 wcounts: 1211
+!task_tick||cpu: 0 pid: 1177 time_slice: 71 nr_running: 6 wcounts: 1260
+!task_tick||cpu: 0 pid: 1177 time_slice: 70 nr_running: 6 wcounts: 1327
+!task_tick||cpu: 0 pid: 1177 time_slice: 69 nr_running: 6 wcounts: 1428
+!task_tick||cpu: 0 pid: 1177 time_slice: 68 nr_running: 6 wcounts: 1492
+!task_tick||cpu: 0 pid: 1177 time_slice: 67 nr_running: 6 wcounts: 1567
+!task_tick||cpu: 0 pid: 1177 time_slice: 66 nr_running: 6 wcounts: 1636
+!task_tick||cpu: 0 pid: 1177 time_slice: 65 nr_running: 6 wcounts: 1721
+!task_tick||cpu: 0 pid: 1177 time_slice: 64 nr_running: 6 wcounts: 1795
+!task_tick||cpu: 0 pid: 1177 time_slice: 63 nr_running: 6 wcounts: 1865
+!task_tick||cpu: 0 pid: 1177 time_slice: 62 nr_running: 6 wcounts: 1921
+!task_tick||cpu: 0 pid: 1177 time_slice: 61 nr_running: 6 wcounts: 1981
+!task_tick||cpu: 0 pid: 1177 time_slice: 60 nr_running: 6 wcounts: 2045
+!task_tick||cpu: 0 pid: 1177 time_slice: 59 nr_running: 6 wcounts: 2152
+!task_tick||cpu: 0 pid: 1177 time_slice: 58 nr_running: 6 wcounts: 2219
+!task_tick||cpu: 0 pid: 1177 time_slice: 57 nr_running: 6 wcounts: 2336
+!task_tick||cpu: 0 pid: 1177 time_slice: 56 nr_running: 6 wcounts: 2349
+!task_tick||cpu: 0 pid: 1177 time_slice: 55 nr_running: 6 wcounts: 2401
+!task_tick||cpu: 0 pid: 1177 time_slice: 54 nr_running: 6 wcounts: 2519
+!task_tick||cpu: 0 pid: 1177 time_slice: 53 nr_running: 6 wcounts: 2593
+!task_tick||cpu: 0 pid: 1177 time_slice: 52 nr_running: 6 wcounts: 2647
+!task_tick||cpu: 0 pid: 1177 time_slice: 51 nr_running: 6 wcounts: 2729
+!task_tick||cpu: 0 pid: 1177 time_slice: 50 nr_running: 6 wcounts: 2883
+!task_tick||cpu: 0 pid: 1177 time_slice: 49 nr_running: 6 wcounts: 2928
+!task_tick||cpu: 0 pid: 1177 time_slice: 48 nr_running: 6 wcounts: 3031
+!task_tick||cpu: 0 pid: 1177 time_slice: 47 nr_running: 6 wcounts: 3144
+!task_tick||cpu: 0 pid: 1177 time_slice: 46 nr_running: 6 wcounts: 3244
+!task_tick||cpu: 0 pid: 1177 time_slice: 45 nr_running: 6 wcounts: 3333
+!task_tick||cpu: 0 pid: 1177 time_slice: 44 nr_running: 6 wcounts: 3466
+!task_tick||cpu: 0 pid: 1177 time_slice: 43 nr_running: 6 wcounts: 3589
+!task_tick||cpu: 0 pid: 1177 time_slice: 42 nr_running: 6 wcounts: 3659
+!task_tick||cpu: 0 pid: 1177 time_slice: 41 nr_running: 6 wcounts: 3737
+!task_tick||cpu: 0 pid: 1177 time_slice: 40 nr_running: 6 wcounts: 3829
+!task_tick||cpu: 0 pid: 1177 time_slice: 39 nr_running: 6 wcounts: 3937
+!task_tick||cpu: 0 pid: 1177 time_slice: 38 nr_running: 6 wcounts: 4034
+!task_tick||cpu: 0 pid: 1177 time_slice: 37 nr_running: 6 wcounts: 4144
+!task_tick||cpu: 0 pid: 1177 time_slice: 36 nr_running: 6 wcounts: 4271
+!task_tick||cpu: 0 pid: 1177 time_slice: 35 nr_running: 6 wcounts: 4325
+!task_tick||cpu: 0 pid: 1177 time_slice: 34 nr_running: 6 wcounts: 4453
+!task_tick||cpu: 0 pid: 1177 time_slice: 33 nr_running: 6 wcounts: 4570
+!task_tick||cpu: 0 pid: 1177 time_slice: 32 nr_running: 6 wcounts: 4670
+!task_tick||cpu: 0 pid: 1177 time_slice: 31 nr_running: 6 wcounts: 4780
+!task_tick||cpu: 0 pid: 1177 time_slice: 30 nr_running: 6 wcounts: 4900
+!task_tick||cpu: 0 pid: 1177 time_slice: 29 nr_running: 6 wcounts: 4977
+!task_tick||cpu: 0 pid: 1177 time_slice: 28 nr_running: 6 wcounts: 5077
+!task_tick||cpu: 0 pid: 1177 time_slice: 27 nr_running: 6 wcounts: 5170
+!task_tick||cpu: 0 pid: 1177 time_slice: 25 nr_running: 6 wcounts: 5370
+!task_tick||cpu: 0 pid: 1177 time_slice: 24 nr_running: 6 wcounts: 5480
+!task_tick||cpu: 0 pid: 1177 time_slice: 23 nr_running: 6 wcounts: 5586
+!task_tick||cpu: 0 pid: 1177 time_slice: 22 nr_running: 6 wcounts: 5671
+!task_tick||cpu: 0 pid: 1177 time_slice: 21 nr_running: 6 wcounts: 5769
+!task_tick||cpu: 0 pid: 1177 time_slice: 20 nr_running: 6 wcounts: 5858
+!task_tick||cpu: 0 pid: 1177 time_slice: 19 nr_running: 6 wcounts: 5950
+!task_tick||cpu: 0 pid: 1177 time_slice: 18 nr_running: 6 wcounts: 6065
+!task_tick||cpu: 0 pid: 1177 time_slice: 17 nr_running: 6 wcounts: 6142
+!task_tick||cpu: 0 pid: 1177 time_slice: 16 nr_running: 6 wcounts: 6156
+!task_tick||cpu: 0 pid: 1177 time_slice: 15 nr_running: 6 wcounts: 6254
+!task_tick||cpu: 0 pid: 1177 time_slice: 14 nr_running: 6 wcounts: 6353
+!task_tick||cpu: 0 pid: 1177 time_slice: 13 nr_running: 6 wcounts: 6443
+!task_tick||cpu: 0 pid: 1177 time_slice: 12 nr_running: 6 wcounts: 6569
+!task_tick||cpu: 0 pid: 1177 time_slice: 11 nr_running: 6 wcounts: 6673
+!task_tick||cpu: 0 pid: 1177 time_slice: 10 nr_running: 6 wcounts: 6730
+!task_tick||cpu: 0 pid: 1177 time_slice: 9 nr_running: 6 wcounts: 6814
+!task_tick||cpu: 0 pid: 1177 time_slice: 8 nr_running: 6 wcounts: 6945
+!task_tick||cpu: 0 pid: 1177 time_slice: 7 nr_running: 6 wcounts: 7017
+!task_tick||cpu: 0 pid: 1177 time_slice: 6 nr_running: 6 wcounts: 7136
+!task_tick||cpu: 0 pid: 1177 time_slice: 5 nr_running: 6 wcounts: 7227
+!task_tick||cpu: 0 pid: 1177 time_slice: 4 nr_running: 6 wcounts: 7334
+!task_tick||cpu: 0 pid: 1177 time_slice: 3 nr_running: 6 wcounts: 7420
+!task_tick||cpu: 0 pid: 1177 time_slice: 2 nr_running: 6 wcounts: 7501
+!task_tick||cpu: 0 pid: 1177 time_slice: 1 nr_running: 6 wcounts: 7586
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1172 time_slice: 28 nr_running: 6 wcounts: 7865
+!task_tick||cpu: 0 pid: 1172 time_slice: 27 nr_running: 6 wcounts: 7961
+!task_tick||cpu: 0 pid: 1172 time_slice: 26 nr_running: 6 wcounts: 8011
+!task_tick||cpu: 0 pid: 1172 time_slice: 25 nr_running: 6 wcounts: 8086
+!task_tick||cpu: 0 pid: 1172 time_slice: 24 nr_running: 6 wcounts: 8185
+!task_tick||cpu: 0 pid: 1172 time_slice: 23 nr_running: 6 wcounts: 8208
+!task_tick||cpu: 0 pid: 1172 time_slice: 22 nr_running: 6 wcounts: 8271
+!task_tick||cpu: 0 pid: 1172 time_slice: 21 nr_running: 6 wcounts: 8296
+!task_tick||cpu: 0 pid: 1172 time_slice: 20 nr_running: 6 wcounts: 8334
+!task_tick||cpu: 0 pid: 1172 time_slice: 19 nr_running: 6 wcounts: 8391
+!task_tick||cpu: 0 pid: 1172 time_slice: 18 nr_running: 6 wcounts: 8452
+!task_tick||cpu: 0 pid: 1172 time_slice: 17 nr_running: 6 wcounts: 8609
+!task_tick||cpu: 0 pid: 1172 time_slice: 16 nr_running: 6 wcounts: 8738
+!task_tick||cpu: 0 pid: 1172 time_slice: 15 nr_running: 6 wcounts: 8800
+!task_tick||cpu: 0 pid: 1172 time_slice: 14 nr_running: 6 wcounts: 8911
+!task_tick||cpu: 0 pid: 1172 time_slice: 13 nr_running: 6 wcounts: 9068
+!task_tick||cpu: 0 pid: 1172 time_slice: 12 nr_running: 6 wcounts: 9137
+!task_tick||cpu: 0 pid: 1172 time_slice: 11 nr_running: 6 wcounts: 9209
+!task_tick||cpu: 0 pid: 1172 time_slice: 10 nr_running: 6 wcounts: 9322
+!task_tick||cpu: 0 pid: 1172 time_slice: 9 nr_running: 6 wcounts: 9435
+!task_tick||cpu: 0 pid: 1172 time_slice: 8 nr_running: 6 wcounts: 9553
+!task_tick||cpu: 0 pid: 1172 time_slice: 7 nr_running: 6 wcounts: 9636
+!task_tick||cpu: 0 pid: 1172 time_slice: 6 nr_running: 6 wcounts: 9732
+!task_tick||cpu: 0 pid: 1172 time_slice: 5 nr_running: 6 wcounts: 9833
+!task_tick||cpu: 0 pid: 1172 time_slice: 4 nr_running: 6 wcounts: 9937
+!task_tick||cpu: 0 pid: 1172 time_slice: 3 nr_running: 6 wcounts: 10046
+!task_tick||cpu: 0 pid: 1172 time_slice: 2 nr_running: 6 wcounts: 10142
+!task_tick||cpu: 0 pid: 1172 time_slice: 1 nr_running: 6 wcounts: 10244
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1173 time_slice: 28 nr_running: 6 wcounts: 7959
+!task_tick||cpu: 0 pid: 1173 time_slice: 27 nr_running: 6 wcounts: 8051
+!task_tick||cpu: 0 pid: 1173 time_slice: 26 nr_running: 6 wcounts: 8229
+!task_tick||cpu: 0 pid: 1173 time_slice: 25 nr_running: 6 wcounts: 8307
+!task_tick||cpu: 0 pid: 1173 time_slice: 24 nr_running: 6 wcounts: 8409
+!task_tick||cpu: 0 pid: 1173 time_slice: 23 nr_running: 6 wcounts: 8572
+!task_tick||cpu: 0 pid: 1173 time_slice: 22 nr_running: 6 wcounts: 8622
+!task_tick||cpu: 0 pid: 1173 time_slice: 21 nr_running: 6 wcounts: 8668
+!task_tick||cpu: 0 pid: 1173 time_slice: 20 nr_running: 6 wcounts: 8753
+!task_tick||cpu: 0 pid: 1173 time_slice: 19 nr_running: 6 wcounts: 8851
+!task_tick||cpu: 0 pid: 1173 time_slice: 18 nr_running: 6 wcounts: 8977
+!task_tick||cpu: 0 pid: 1173 time_slice: 17 nr_running: 6 wcounts: 9070
+!task_tick||cpu: 0 pid: 1173 time_slice: 16 nr_running: 6 wcounts: 9166
+!task_tick||cpu: 0 pid: 1173 time_slice: 15 nr_running: 6 wcounts: 9259
+!task_tick||cpu: 0 pid: 1173 time_slice: 14 nr_running: 6 wcounts: 9367
+!task_tick||cpu: 0 pid: 1173 time_slice: 13 nr_running: 6 wcounts: 9444
+!task_tick||cpu: 0 pid: 1173 time_slice: 12 nr_running: 6 wcounts: 9559
+!task_tick||cpu: 0 pid: 1173 time_slice: 11 nr_running: 6 wcounts: 9663
+!task_tick||cpu: 0 pid: 1173 time_slice: 10 nr_running: 6 wcounts: 9762
+!task_tick||cpu: 0 pid: 1173 time_slice: 9 nr_running: 6 wcounts: 9885
+!task_tick||cpu: 0 pid: 1173 time_slice: 8 nr_running: 6 wcounts: 9950
+!task_tick||cpu: 0 pid: 1173 time_slice: 7 nr_running: 6 wcounts: 10048
+!task_tick||cpu: 0 pid: 1173 time_slice: 6 nr_running: 6 wcounts: 10179
+!task_tick||cpu: 0 pid: 1173 time_slice: 5 nr_running: 6 wcounts: 10247
+!task_tick||cpu: 0 pid: 1173 time_slice: 4 nr_running: 6 wcounts: 10375
+!task_tick||cpu: 0 pid: 1173 time_slice: 3 nr_running: 6 wcounts: 10475
+!task_tick||cpu: 0 pid: 1173 time_slice: 2 nr_running: 6 wcounts: 10581
+!task_tick||cpu: 0 pid: 1173 time_slice: 1 nr_running: 6 wcounts: 10655
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1174 time_slice: 28 nr_running: 6 wcounts: 8490
+!task_tick||cpu: 0 pid: 1174 time_slice: 27 nr_running: 6 wcounts: 8582
+!task_tick||cpu: 0 pid: 1174 time_slice: 26 nr_running: 6 wcounts: 8720
+!task_tick||cpu: 0 pid: 1174 time_slice: 25 nr_running: 6 wcounts: 8839
+!task_tick||cpu: 0 pid: 1174 time_slice: 24 nr_running: 6 wcounts: 8932
+!task_tick||cpu: 0 pid: 1174 time_slice: 23 nr_running: 6 wcounts: 9020
+!task_tick||cpu: 0 pid: 1174 time_slice: 22 nr_running: 6 wcounts: 9103
+!task_tick||cpu: 0 pid: 1174 time_slice: 21 nr_running: 6 wcounts: 9217
+!task_tick||cpu: 0 pid: 1174 time_slice: 20 nr_running: 6 wcounts: 9327
+!task_tick||cpu: 0 pid: 1174 time_slice: 19 nr_running: 6 wcounts: 9402
+!task_tick||cpu: 0 pid: 1174 time_slice: 18 nr_running: 6 wcounts: 9543
+!task_tick||cpu: 0 pid: 1174 time_slice: 17 nr_running: 6 wcounts: 9643
+!task_tick||cpu: 0 pid: 1174 time_slice: 16 nr_running: 6 wcounts: 9722
+!task_tick||cpu: 0 pid: 1174 time_slice: 15 nr_running: 6 wcounts: 9881
+!task_tick||cpu: 0 pid: 1174 time_slice: 14 nr_running: 6 wcounts: 9971
+!task_tick||cpu: 0 pid: 1174 time_slice: 13 nr_running: 6 wcounts: 10054
+!task_tick||cpu: 0 pid: 1174 time_slice: 12 nr_running: 6 wcounts: 10150
+!task_tick||cpu: 0 pid: 1174 time_slice: 11 nr_running: 6 wcounts: 10273
+!task_tick||cpu: 0 pid: 1174 time_slice: 10 nr_running: 6 wcounts: 10331
+!task_tick||cpu: 0 pid: 1174 time_slice: 9 nr_running: 6 wcounts: 10428
+!task_tick||cpu: 0 pid: 1174 time_slice: 8 nr_running: 6 wcounts: 10555
+!task_tick||cpu: 0 pid: 1174 time_slice: 7 nr_running: 6 wcounts: 10654
+!task_tick||cpu: 0 pid: 1174 time_slice: 6 nr_running: 6 wcounts: 10785
+!task_tick||cpu: 0 pid: 1174 time_slice: 5 nr_running: 6 wcounts: 10879
+!task_tick||cpu: 0 pid: 1174 time_slice: 4 nr_running: 6 wcounts: 10994
+!task_tick||cpu: 0 pid: 1174 time_slice: 3 nr_running: 6 wcounts: 11120
+!task_tick||cpu: 0 pid: 1174 time_slice: 2 nr_running: 6 wcounts: 11202
+!task_tick||cpu: 0 pid: 1174 time_slice: 1 nr_running: 6 wcounts: 11301
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1175 time_slice: 28 nr_running: 6 wcounts: 8400
+!task_tick||cpu: 0 pid: 1175 time_slice: 27 nr_running: 6 wcounts: 8498
+!task_tick||cpu: 0 pid: 1175 time_slice: 26 nr_running: 6 wcounts: 8718
+!task_tick||cpu: 0 pid: 1175 time_slice: 25 nr_running: 6 wcounts: 8813
+!task_tick||cpu: 0 pid: 1175 time_slice: 24 nr_running: 6 wcounts: 8920
+!task_tick||cpu: 0 pid: 1175 time_slice: 23 nr_running: 6 wcounts: 8990
+!task_tick||cpu: 0 pid: 1175 time_slice: 22 nr_running: 6 wcounts: 9105
+!task_tick||cpu: 0 pid: 1175 time_slice: 21 nr_running: 6 wcounts: 9203
+!task_tick||cpu: 0 pid: 1175 time_slice: 20 nr_running: 6 wcounts: 9296
+!task_tick||cpu: 0 pid: 1175 time_slice: 19 nr_running: 6 wcounts: 9405
+!task_tick||cpu: 0 pid: 1175 time_slice: 18 nr_running: 6 wcounts: 9475
+!task_tick||cpu: 0 pid: 1175 time_slice: 17 nr_running: 6 wcounts: 9634
+!task_tick||cpu: 0 pid: 1175 time_slice: 16 nr_running: 6 wcounts: 9737
+!task_tick||cpu: 0 pid: 1175 time_slice: 15 nr_running: 6 wcounts: 9824
+!task_tick||cpu: 0 pid: 1175 time_slice: 14 nr_running: 6 wcounts: 9944
+!task_tick||cpu: 0 pid: 1175 time_slice: 13 nr_running: 6 wcounts: 10021
+!task_tick||cpu: 0 pid: 1175 time_slice: 12 nr_running: 6 wcounts: 10134
+!task_tick||cpu: 0 pid: 1175 time_slice: 11 nr_running: 6 wcounts: 10257
+!task_tick||cpu: 0 pid: 1175 time_slice: 10 nr_running: 6 wcounts: 10382
+!task_tick||cpu: 0 pid: 1175 time_slice: 9 nr_running: 6 wcounts: 10427
+!task_tick||cpu: 0 pid: 1175 time_slice: 8 nr_running: 6 wcounts: 10524
+!task_tick||cpu: 0 pid: 1175 time_slice: 7 nr_running: 6 wcounts: 10620
+!task_tick||cpu: 0 pid: 1175 time_slice: 6 nr_running: 6 wcounts: 10648
+!task_tick||cpu: 0 pid: 1175 time_slice: 5 nr_running: 6 wcounts: 10740
+!task_tick||cpu: 0 pid: 1175 time_slice: 4 nr_running: 6 wcounts: 10835
+!task_tick||cpu: 0 pid: 1175 time_slice: 3 nr_running: 6 wcounts: 10944
+!task_tick||cpu: 0 pid: 1175 time_slice: 2 nr_running: 6 wcounts: 11012
+!task_tick||cpu: 0 pid: 1175 time_slice: 1 nr_running: 6 wcounts: 11107
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1176 time_slice: 28 nr_running: 6 wcounts: 7591
+!task_tick||cpu: 0 pid: 1176 time_slice: 27 nr_running: 6 wcounts: 7688
+!task_tick||cpu: 0 pid: 1176 time_slice: 26 nr_running: 6 wcounts: 7836
+!task_tick||cpu: 0 pid: 1176 time_slice: 25 nr_running: 6 wcounts: 7928
+!task_tick||cpu: 0 pid: 1176 time_slice: 24 nr_running: 6 wcounts: 8021
+!task_tick||cpu: 0 pid: 1176 time_slice: 23 nr_running: 6 wcounts: 8109
+!task_tick||cpu: 0 pid: 1176 time_slice: 22 nr_running: 6 wcounts: 8203
+!task_tick||cpu: 0 pid: 1176 time_slice: 21 nr_running: 6 wcounts: 8260
+!task_tick||cpu: 0 pid: 1176 time_slice: 20 nr_running: 6 wcounts: 8372
+!task_tick||cpu: 0 pid: 1176 time_slice: 19 nr_running: 6 wcounts: 8463
+!task_tick||cpu: 0 pid: 1176 time_slice: 18 nr_running: 6 wcounts: 8554
+!task_tick||cpu: 0 pid: 1176 time_slice: 17 nr_running: 6 wcounts: 8655
+!task_tick||cpu: 0 pid: 1176 time_slice: 16 nr_running: 6 wcounts: 8771
+!task_tick||cpu: 0 pid: 1176 time_slice: 15 nr_running: 6 wcounts: 8894
+!task_tick||cpu: 0 pid: 1176 time_slice: 14 nr_running: 6 wcounts: 8954
+!task_tick||cpu: 0 pid: 1176 time_slice: 13 nr_running: 6 wcounts: 9049
+!task_tick||cpu: 0 pid: 1176 time_slice: 11 nr_running: 6 wcounts: 9266
+!task_tick||cpu: 0 pid: 1176 time_slice: 10 nr_running: 6 wcounts: 9382
+!task_tick||cpu: 0 pid: 1176 time_slice: 9 nr_running: 6 wcounts: 9488
+!task_tick||cpu: 0 pid: 1176 time_slice: 8 nr_running: 6 wcounts: 9703
+!task_tick||cpu: 0 pid: 1176 time_slice: 7 nr_running: 6 wcounts: 9780
+!task_tick||cpu: 0 pid: 1176 time_slice: 6 nr_running: 6 wcounts: 9864
+!task_tick||cpu: 0 pid: 1176 time_slice: 5 nr_running: 6 wcounts: 10016
+!task_tick||cpu: 0 pid: 1176 time_slice: 4 nr_running: 6 wcounts: 10088
+!task_tick||cpu: 0 pid: 1176 time_slice: 3 nr_running: 6 wcounts: 10186
+!task_tick||cpu: 0 pid: 1176 time_slice: 2 nr_running: 6 wcounts: 10257
+!task_tick||cpu: 0 pid: 1176 time_slice: 1 nr_running: 6 wcounts: 10359
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1177 time_slice: 28 nr_running: 6 wcounts: 7673
+!task_tick||cpu: 0 pid: 1177 time_slice: 27 nr_running: 6 wcounts: 7794
+!task_tick||cpu: 0 pid: 1177 time_slice: 26 nr_running: 6 wcounts: 7891
+!task_tick||cpu: 0 pid: 1177 time_slice: 25 nr_running: 6 wcounts: 7970
+!task_tick||cpu: 0 pid: 1177 time_slice: 24 nr_running: 6 wcounts: 8065
+!task_tick||cpu: 0 pid: 1177 time_slice: 23 nr_running: 6 wcounts: 8150
+!task_tick||cpu: 0 pid: 1177 time_slice: 22 nr_running: 6 wcounts: 8239
+!task_tick||cpu: 0 pid: 1177 time_slice: 21 nr_running: 6 wcounts: 8345
+!task_tick||cpu: 0 pid: 1177 time_slice: 20 nr_running: 6 wcounts: 8406
+!task_tick||cpu: 0 pid: 1177 time_slice: 19 nr_running: 6 wcounts: 8524
+!task_tick||cpu: 0 pid: 1177 time_slice: 18 nr_running: 6 wcounts: 8608
+!task_tick||cpu: 0 pid: 1177 time_slice: 17 nr_running: 6 wcounts: 8758
+!task_tick||cpu: 0 pid: 1177 time_slice: 16 nr_running: 6 wcounts: 8847
+!task_tick||cpu: 0 pid: 1177 time_slice: 15 nr_running: 6 wcounts: 8921
+!task_tick||cpu: 0 pid: 1177 time_slice: 14 nr_running: 6 wcounts: 9097
+!task_tick||cpu: 0 pid: 1177 time_slice: 13 nr_running: 6 wcounts: 9171
+!task_tick||cpu: 0 pid: 1177 time_slice: 12 nr_running: 6 wcounts: 9271
+!task_tick||cpu: 0 pid: 1177 time_slice: 11 nr_running: 6 wcounts: 9363
+!task_tick||cpu: 0 pid: 1177 time_slice: 10 nr_running: 6 wcounts: 9527
+!task_tick||cpu: 0 pid: 1177 time_slice: 9 nr_running: 6 wcounts: 9651
+!task_tick||cpu: 0 pid: 1177 time_slice: 8 nr_running: 6 wcounts: 9751
+!task_tick||cpu: 0 pid: 1177 time_slice: 7 nr_running: 6 wcounts: 9842
+!task_tick||cpu: 0 pid: 1177 time_slice: 6 nr_running: 6 wcounts: 9962
+!task_tick||cpu: 0 pid: 1177 time_slice: 5 nr_running: 6 wcounts: 10082
+!task_tick||cpu: 0 pid: 1177 time_slice: 4 nr_running: 6 wcounts: 10155
+!task_tick||cpu: 0 pid: 1177 time_slice: 3 nr_running: 6 wcounts: 10285
+!task_tick||cpu: 0 pid: 1177 time_slice: 2 nr_running: 6 wcounts: 10397
+!task_tick||cpu: 0 pid: 1177 time_slice: 1 nr_running: 6 wcounts: 10511
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1172 time_slice: 19 nr_running: 6 wcounts: 10353
+!task_tick||cpu: 0 pid: 1172 time_slice: 18 nr_running: 6 wcounts: 10464
+!task_tick||cpu: 0 pid: 1172 time_slice: 17 nr_running: 6 wcounts: 10561
+!task_tick||cpu: 0 pid: 1172 time_slice: 16 nr_running: 6 wcounts: 10644
+!task_tick||cpu: 0 pid: 1172 time_slice: 15 nr_running: 6 wcounts: 10770
+!task_tick||cpu: 0 pid: 1172 time_slice: 14 nr_running: 6 wcounts: 10889
+!task_tick||cpu: 0 pid: 1172 time_slice: 13 nr_running: 6 wcounts: 10980
+!task_tick||cpu: 0 pid: 1172 time_slice: 12 nr_running: 6 wcounts: 11132
+!task_tick||cpu: 0 pid: 1172 time_slice: 11 nr_running: 6 wcounts: 11219
+!task_tick||cpu: 0 pid: 1172 time_slice: 10 nr_running: 6 wcounts: 11347
+!task_tick||cpu: 0 pid: 1172 time_slice: 9 nr_running: 6 wcounts: 11470
+!task_tick||cpu: 0 pid: 1172 time_slice: 8 nr_running: 6 wcounts: 11575
+!task_tick||cpu: 0 pid: 1172 time_slice: 7 nr_running: 6 wcounts: 11677
+!task_tick||cpu: 0 pid: 1172 time_slice: 6 nr_running: 6 wcounts: 11783
+!task_tick||cpu: 0 pid: 1172 time_slice: 5 nr_running: 6 wcounts: 11878
+!task_tick||cpu: 0 pid: 1172 time_slice: 4 nr_running: 6 wcounts: 11947
+!task_tick||cpu: 0 pid: 1172 time_slice: 3 nr_running: 6 wcounts: 12038
+!task_tick||cpu: 0 pid: 1172 time_slice: 2 nr_running: 6 wcounts: 12138
+!task_tick||cpu: 0 pid: 1172 time_slice: 1 nr_running: 6 wcounts: 12278
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1173 time_slice: 19 nr_running: 6 wcounts: 10752
+!task_tick||cpu: 0 pid: 1173 time_slice: 18 nr_running: 6 wcounts: 10863
+!task_tick||cpu: 0 pid: 1173 time_slice: 17 nr_running: 6 wcounts: 10957
+!task_tick||cpu: 0 pid: 1173 time_slice: 16 nr_running: 6 wcounts: 11075
+!task_tick||cpu: 0 pid: 1173 time_slice: 15 nr_running: 6 wcounts: 11173
+!task_tick||cpu: 0 pid: 1173 time_slice: 14 nr_running: 6 wcounts: 11309
+!task_tick||cpu: 0 pid: 1173 time_slice: 13 nr_running: 6 wcounts: 11404
+!task_tick||cpu: 0 pid: 1173 time_slice: 12 nr_running: 6 wcounts: 11495
+!task_tick||cpu: 0 pid: 1173 time_slice: 11 nr_running: 6 wcounts: 11602
+!task_tick||cpu: 0 pid: 1173 time_slice: 10 nr_running: 6 wcounts: 11721
+!task_tick||cpu: 0 pid: 1173 time_slice: 9 nr_running: 6 wcounts: 11807
+!task_tick||cpu: 0 pid: 1173 time_slice: 8 nr_running: 6 wcounts: 11921
+!task_tick||cpu: 0 pid: 1173 time_slice: 7 nr_running: 6 wcounts: 12041
+!task_tick||cpu: 0 pid: 1173 time_slice: 6 nr_running: 6 wcounts: 12159
+!task_tick||cpu: 0 pid: 1173 time_slice: 5 nr_running: 6 wcounts: 12238
+!task_tick||cpu: 0 pid: 1173 time_slice: 4 nr_running: 6 wcounts: 12342
+!task_tick||cpu: 0 pid: 1173 time_slice: 3 nr_running: 6 wcounts: 12417
+!task_tick||cpu: 0 pid: 1173 time_slice: 1 nr_running: 6 wcounts: 12626
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1174 time_slice: 19 nr_running: 6 wcounts: 11362
+!task_tick||cpu: 0 pid: 1174 time_slice: 18 nr_running: 6 wcounts: 11478
+!task_tick||cpu: 0 pid: 1174 time_slice: 17 nr_running: 6 wcounts: 11555
+!task_tick||cpu: 0 pid: 1174 time_slice: 16 nr_running: 6 wcounts: 11764
+!task_tick||cpu: 0 pid: 1174 time_slice: 15 nr_running: 6 wcounts: 11845
+!task_tick||cpu: 0 pid: 1174 time_slice: 14 nr_running: 6 wcounts: 11968
+!task_tick||cpu: 0 pid: 1174 time_slice: 13 nr_running: 6 wcounts: 12029
+!task_tick||cpu: 0 pid: 1174 time_slice: 12 nr_running: 6 wcounts: 12118
+!task_tick||cpu: 0 pid: 1174 time_slice: 11 nr_running: 6 wcounts: 12258
+!task_tick||cpu: 0 pid: 1174 time_slice: 10 nr_running: 6 wcounts: 12299
+!task_tick||cpu: 0 pid: 1174 time_slice: 9 nr_running: 6 wcounts: 12386
+!task_tick||cpu: 0 pid: 1174 time_slice: 8 nr_running: 6 wcounts: 12479
+!task_tick||cpu: 0 pid: 1174 time_slice: 7 nr_running: 6 wcounts: 12480
+!task_tick||cpu: 0 pid: 1174 time_slice: 6 nr_running: 6 wcounts: 12514
+!task_tick||cpu: 0 pid: 1174 time_slice: 5 nr_running: 6 wcounts: 12612
+!task_tick||cpu: 0 pid: 1174 time_slice: 4 nr_running: 6 wcounts: 12721
+!task_tick||cpu: 0 pid: 1174 time_slice: 3 nr_running: 6 wcounts: 12810
+!task_tick||cpu: 0 pid: 1174 time_slice: 2 nr_running: 6 wcounts: 12917
+!task_tick||cpu: 0 pid: 1174 time_slice: 1 nr_running: 6 wcounts: 13017
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1175 time_slice: 19 nr_running: 6 wcounts: 11210
+!task_tick||cpu: 0 pid: 1175 time_slice: 18 nr_running: 6 wcounts: 11328
+!task_tick||cpu: 0 pid: 1175 time_slice: 17 nr_running: 6 wcounts: 11416
+!task_tick||cpu: 0 pid: 1175 time_slice: 16 nr_running: 6 wcounts: 11646
+!task_tick||cpu: 0 pid: 1175 time_slice: 15 nr_running: 6 wcounts: 11753
+!task_tick||cpu: 0 pid: 1175 time_slice: 14 nr_running: 6 wcounts: 11847
+!task_tick||cpu: 0 pid: 1175 time_slice: 13 nr_running: 6 wcounts: 11974
+!task_tick||cpu: 0 pid: 1175 time_slice: 12 nr_running: 6 wcounts: 12072
+!task_tick||cpu: 0 pid: 1175 time_slice: 11 nr_running: 6 wcounts: 12162
+!task_tick||cpu: 0 pid: 1175 time_slice: 10 nr_running: 6 wcounts: 12303
+!task_tick||cpu: 0 pid: 1175 time_slice: 9 nr_running: 6 wcounts: 12381
+!task_tick||cpu: 0 pid: 1175 time_slice: 8 nr_running: 6 wcounts: 12471
+!task_tick||cpu: 0 pid: 1175 time_slice: 7 nr_running: 6 wcounts: 12589
+!task_tick||cpu: 0 pid: 1175 time_slice: 6 nr_running: 6 wcounts: 12713
+!task_tick||cpu: 0 pid: 1175 time_slice: 5 nr_running: 6 wcounts: 12799
+!task_tick||cpu: 0 pid: 1175 time_slice: 4 nr_running: 6 wcounts: 12933
+!task_tick||cpu: 0 pid: 1175 time_slice: 3 nr_running: 6 wcounts: 13036
+!task_tick||cpu: 0 pid: 1175 time_slice: 2 nr_running: 6 wcounts: 13112
+!task_tick||cpu: 0 pid: 1175 time_slice: 1 nr_running: 6 wcounts: 13217
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1176 time_slice: 19 nr_running: 6 wcounts: 10450
+!task_tick||cpu: 0 pid: 1176 time_slice: 18 nr_running: 6 wcounts: 10576
+!task_tick||cpu: 0 pid: 1176 time_slice: 17 nr_running: 6 wcounts: 10668
+!task_tick||cpu: 0 pid: 1176 time_slice: 16 nr_running: 6 wcounts: 10761
+!task_tick||cpu: 0 pid: 1176 time_slice: 15 nr_running: 6 wcounts: 10845
+!task_tick||cpu: 0 pid: 1176 time_slice: 14 nr_running: 6 wcounts: 10977
+!task_tick||cpu: 0 pid: 1176 time_slice: 13 nr_running: 6 wcounts: 11095
+!task_tick||cpu: 0 pid: 1176 time_slice: 12 nr_running: 6 wcounts: 11178
+!task_tick||cpu: 0 pid: 1176 time_slice: 11 nr_running: 6 wcounts: 11292
+!task_tick||cpu: 0 pid: 1176 time_slice: 10 nr_running: 6 wcounts: 11416
+!task_tick||cpu: 0 pid: 1176 time_slice: 9 nr_running: 6 wcounts: 11591
+!task_tick||cpu: 0 pid: 1176 time_slice: 8 nr_running: 6 wcounts: 11713
+!task_tick||cpu: 0 pid: 1176 time_slice: 7 nr_running: 6 wcounts: 11783
+!task_tick||cpu: 0 pid: 1176 time_slice: 6 nr_running: 6 wcounts: 11893
+!task_tick||cpu: 0 pid: 1176 time_slice: 5 nr_running: 6 wcounts: 12030
+!task_tick||cpu: 0 pid: 1176 time_slice: 4 nr_running: 6 wcounts: 12093
+!task_tick||cpu: 0 pid: 1176 time_slice: 3 nr_running: 6 wcounts: 12179
+!task_tick||cpu: 0 pid: 1176 time_slice: 2 nr_running: 6 wcounts: 12273
+!task_tick||cpu: 0 pid: 1176 time_slice: 1 nr_running: 6 wcounts: 12387
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1177 time_slice: 19 nr_running: 6 wcounts: 10595
+!task_tick||cpu: 0 pid: 1177 time_slice: 18 nr_running: 6 wcounts: 10703
+!task_tick||cpu: 0 pid: 1177 time_slice: 17 nr_running: 6 wcounts: 10813
+!task_tick||cpu: 0 pid: 1177 time_slice: 16 nr_running: 6 wcounts: 10914
+!task_tick||cpu: 0 pid: 1177 time_slice: 15 nr_running: 6 wcounts: 11006
+!task_tick||cpu: 0 pid: 1177 time_slice: 14 nr_running: 6 wcounts: 11113
+!task_tick||cpu: 0 pid: 1177 time_slice: 13 nr_running: 6 wcounts: 11209
+!task_tick||cpu: 0 pid: 1177 time_slice: 12 nr_running: 6 wcounts: 11307
+!task_tick||cpu: 0 pid: 1177 time_slice: 11 nr_running: 6 wcounts: 11399
+!task_tick||cpu: 0 pid: 1177 time_slice: 10 nr_running: 6 wcounts: 11480
+!task_tick||cpu: 0 pid: 1177 time_slice: 9 nr_running: 6 wcounts: 11690
+!task_tick||cpu: 0 pid: 1177 time_slice: 8 nr_running: 6 wcounts: 11783
+!task_tick||cpu: 0 pid: 1177 time_slice: 7 nr_running: 6 wcounts: 11906
+!task_tick||cpu: 0 pid: 1177 time_slice: 6 nr_running: 6 wcounts: 12014
+!task_tick||cpu: 0 pid: 1177 time_slice: 5 nr_running: 6 wcounts: 12107
+!task_tick||cpu: 0 pid: 1177 time_slice: 4 nr_running: 6 wcounts: 12182
+!task_tick||cpu: 0 pid: 1177 time_slice: 3 nr_running: 6 wcounts: 12276
+!task_tick||cpu: 0 pid: 1177 time_slice: 2 nr_running: 6 wcounts: 12370
+!task_tick||cpu: 0 pid: 1177 time_slice: 1 nr_running: 6 wcounts: 12488
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1172 time_slice: 19 nr_running: 6 wcounts: 12373
+!task_tick||cpu: 0 pid: 1172 time_slice: 18 nr_running: 6 wcounts: 12477
+!task_tick||cpu: 0 pid: 1172 time_slice: 17 nr_running: 6 wcounts: 12590
+!task_tick||cpu: 0 pid: 1172 time_slice: 16 nr_running: 6 wcounts: 12697
+!task_tick||cpu: 0 pid: 1172 time_slice: 15 nr_running: 6 wcounts: 12771
+!task_tick||cpu: 0 pid: 1172 time_slice: 14 nr_running: 6 wcounts: 12873
+!task_tick||cpu: 0 pid: 1172 time_slice: 13 nr_running: 6 wcounts: 12992
+!task_tick||cpu: 0 pid: 1172 time_slice: 12 nr_running: 6 wcounts: 13095
+!task_tick||cpu: 0 pid: 1172 time_slice: 11 nr_running: 6 wcounts: 13204
+!task_tick||cpu: 0 pid: 1172 time_slice: 10 nr_running: 6 wcounts: 13295
+!task_tick||cpu: 0 pid: 1172 time_slice: 9 nr_running: 6 wcounts: 13379
+!task_tick||cpu: 0 pid: 1172 time_slice: 8 nr_running: 6 wcounts: 13471
+!task_tick||cpu: 0 pid: 1172 time_slice: 7 nr_running: 6 wcounts: 13546
+!task_tick||cpu: 0 pid: 1172 time_slice: 6 nr_running: 6 wcounts: 13630
+!task_tick||cpu: 0 pid: 1172 time_slice: 5 nr_running: 6 wcounts: 13712
+!task_tick||cpu: 0 pid: 1172 time_slice: 4 nr_running: 6 wcounts: 13836
+!task_tick||cpu: 0 pid: 1172 time_slice: 3 nr_running: 6 wcounts: 13926
+!task_tick||cpu: 0 pid: 1172 time_slice: 2 nr_running: 6 wcounts: 14044
+!task_tick||cpu: 0 pid: 1172 time_slice: 1 nr_running: 6 wcounts: 14136
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1173 time_slice: 19 nr_running: 6 wcounts: 12739
+!task_tick||cpu: 0 pid: 1173 time_slice: 18 nr_running: 6 wcounts: 12865
+!task_tick||cpu: 0 pid: 1173 time_slice: 17 nr_running: 6 wcounts: 12930
+!task_tick||cpu: 0 pid: 1173 time_slice: 16 nr_running: 6 wcounts: 13043
+!task_tick||cpu: 0 pid: 1173 time_slice: 15 nr_running: 6 wcounts: 13110
+!task_tick||cpu: 0 pid: 1173 time_slice: 14 nr_running: 6 wcounts: 13206
+!task_tick||cpu: 0 pid: 1173 time_slice: 13 nr_running: 6 wcounts: 13327
+!task_tick||cpu: 0 pid: 1173 time_slice: 12 nr_running: 6 wcounts: 13427
+!task_tick||cpu: 0 pid: 1173 time_slice: 11 nr_running: 6 wcounts: 13535
+!task_tick||cpu: 0 pid: 1173 time_slice: 10 nr_running: 6 wcounts: 13640
+!task_tick||cpu: 0 pid: 1173 time_slice: 9 nr_running: 6 wcounts: 13743
+!task_tick||cpu: 0 pid: 1173 time_slice: 8 nr_running: 6 wcounts: 13842
+!task_tick||cpu: 0 pid: 1173 time_slice: 7 nr_running: 6 wcounts: 13943
+!task_tick||cpu: 0 pid: 1173 time_slice: 6 nr_running: 6 wcounts: 14013
+!task_tick||cpu: 0 pid: 1173 time_slice: 5 nr_running: 6 wcounts: 14090
+!task_tick||cpu: 0 pid: 1173 time_slice: 4 nr_running: 6 wcounts: 14132
+!task_tick||cpu: 0 pid: 1173 time_slice: 3 nr_running: 6 wcounts: 14146
+!task_tick||cpu: 0 pid: 1173 time_slice: 2 nr_running: 6 wcounts: 14173
+!task_tick||cpu: 0 pid: 1173 time_slice: 1 nr_running: 6 wcounts: 14209
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1174 time_slice: 19 nr_running: 6 wcounts: 13034
+!task_tick||cpu: 0 pid: 1174 time_slice: 18 nr_running: 6 wcounts: 13173
+!task_tick||cpu: 0 pid: 1174 time_slice: 17 nr_running: 6 wcounts: 13230
+!task_tick||cpu: 0 pid: 1174 time_slice: 15 nr_running: 6 wcounts: 13238
+!task_tick||cpu: 0 pid: 1174 time_slice: 14 nr_running: 6 wcounts: 13239
+!task_tick||cpu: 0 pid: 1174 time_slice: 13 nr_running: 6 wcounts: 13240
+!task_tick||cpu: 0 pid: 1174 time_slice: 12 nr_running: 6 wcounts: 13245
+!task_tick||cpu: 0 pid: 1174 time_slice: 11 nr_running: 6 wcounts: 13261
+!task_tick||cpu: 0 pid: 1174 time_slice: 10 nr_running: 6 wcounts: 13332
+!task_tick||cpu: 0 pid: 1174 time_slice: 9 nr_running: 6 wcounts: 13337
+!task_tick||cpu: 0 pid: 1174 time_slice: 8 nr_running: 6 wcounts: 13396
+!task_tick||cpu: 0 pid: 1174 time_slice: 7 nr_running: 6 wcounts: 13446
+!task_tick||cpu: 0 pid: 1174 time_slice: 6 nr_running: 6 wcounts: 13516
+!task_tick||cpu: 0 pid: 1174 time_slice: 5 nr_running: 6 wcounts: 13560
+!task_tick||cpu: 0 pid: 1174 time_slice: 4 nr_running: 6 wcounts: 13560
+!task_tick||cpu: 0 pid: 1174 time_slice: 3 nr_running: 6 wcounts: 13560
+!task_tick||cpu: 0 pid: 1174 time_slice: 2 nr_running: 6 wcounts: 13605
+!task_tick||cpu: 0 pid: 1174 time_slice: 1 nr_running: 6 wcounts: 13616
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1175 time_slice: 19 nr_running: 6 wcounts: 13241
+!task_tick||cpu: 0 pid: 1175 time_slice: 18 nr_running: 6 wcounts: 13271
+!task_tick||cpu: 0 pid: 1175 time_slice: 17 nr_running: 6 wcounts: 13271
+!task_tick||cpu: 0 pid: 1175 time_slice: 16 nr_running: 6 wcounts: 13271
+!task_tick||cpu: 0 pid: 1175 time_slice: 15 nr_running: 6 wcounts: 13282
+!task_tick||cpu: 0 pid: 1175 time_slice: 14 nr_running: 6 wcounts: 13362
+!task_tick||cpu: 0 pid: 1175 time_slice: 13 nr_running: 6 wcounts: 13399
+!task_tick||cpu: 0 pid: 1175 time_slice: 12 nr_running: 6 wcounts: 13540
+!task_tick||cpu: 0 pid: 1175 time_slice: 11 nr_running: 6 wcounts: 13723
+!task_tick||cpu: 0 pid: 1175 time_slice: 10 nr_running: 6 wcounts: 13920
+!task_tick||cpu: 0 pid: 1175 time_slice: 9 nr_running: 6 wcounts: 13996
+!task_tick||cpu: 0 pid: 1175 time_slice: 8 nr_running: 6 wcounts: 14062
+!task_tick||cpu: 0 pid: 1175 time_slice: 7 nr_running: 6 wcounts: 14483
+!task_tick||cpu: 0 pid: 1175 time_slice: 6 nr_running: 6 wcounts: 14722
+!task_tick||cpu: 0 pid: 1175 time_slice: 5 nr_running: 6 wcounts: 14899
+!task_tick||cpu: 0 pid: 1175 time_slice: 4 nr_running: 6 wcounts: 14967
+!task_tick||cpu: 0 pid: 1175 time_slice: 3 nr_running: 6 wcounts: 17595
+!task_tick||cpu: 0 pid: 1175 time_slice: 2 nr_running: 6 wcounts: 17720
+!task_tick||cpu: 0 pid: 1175 time_slice: 1 nr_running: 6 wcounts: 18103
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1176 time_slice: 19 nr_running: 6 wcounts: 12418
+!task_tick||cpu: 0 pid: 1176 time_slice: 18 nr_running: 6 wcounts: 12490
+!task_tick||cpu: 0 pid: 1176 time_slice: 17 nr_running: 6 wcounts: 12649
+!task_tick||cpu: 0 pid: 1176 time_slice: 16 nr_running: 6 wcounts: 12868
+!task_tick||cpu: 0 pid: 1176 time_slice: 15 nr_running: 6 wcounts: 12992
+!task_tick||cpu: 0 pid: 1176 time_slice: 14 nr_running: 6 wcounts: 13253
+!task_tick||cpu: 0 pid: 1176 time_slice: 13 nr_running: 6 wcounts: 13466
+!task_tick||cpu: 0 pid: 1176 time_slice: 12 nr_running: 6 wcounts: 13466
+!task_tick||cpu: 0 pid: 1176 time_slice: 11 nr_running: 6 wcounts: 13569
+!task_tick||cpu: 0 pid: 1176 time_slice: 10 nr_running: 6 wcounts: 13646
+!task_tick||cpu: 0 pid: 1176 time_slice: 9 nr_running: 6 wcounts: 17693
+!task_tick||cpu: 0 pid: 1176 time_slice: 8 nr_running: 6 wcounts: 17743
+!task_tick||cpu: 0 pid: 1176 time_slice: 7 nr_running: 6 wcounts: 17791
+!task_tick||cpu: 0 pid: 1176 time_slice: 6 nr_running: 6 wcounts: 17905
+!task_tick||cpu: 0 pid: 1176 time_slice: 5 nr_running: 6 wcounts: 18073
+!task_tick||cpu: 0 pid: 1176 time_slice: 4 nr_running: 6 wcounts: 18262
+!task_tick||cpu: 0 pid: 1176 time_slice: 3 nr_running: 6 wcounts: 18452
+!task_tick||cpu: 0 pid: 1176 time_slice: 2 nr_running: 6 wcounts: 23105
+!task_tick||cpu: 0 pid: 1176 time_slice: 1 nr_running: 6 wcounts: 24930
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1177 time_slice: 19 nr_running: 6 wcounts: 12510
+!task_tick||cpu: 0 pid: 1177 time_slice: 18 nr_running: 6 wcounts: 12796
+!task_tick||cpu: 0 pid: 1177 time_slice: 17 nr_running: 6 wcounts: 12976
+!task_tick||cpu: 0 pid: 1177 time_slice: 16 nr_running: 6 wcounts: 14536
+!task_tick||cpu: 0 pid: 1177 time_slice: 15 nr_running: 6 wcounts: 14641
+!task_tick||cpu: 0 pid: 1177 time_slice: 14 nr_running: 6 wcounts: 14641
+!task_tick||cpu: 0 pid: 1177 time_slice: 13 nr_running: 6 wcounts: 14701
+!task_tick||cpu: 0 pid: 1177 time_slice: 12 nr_running: 6 wcounts: 14953
+!task_tick||cpu: 0 pid: 1177 time_slice: 11 nr_running: 6 wcounts: 16906
+!task_tick||cpu: 0 pid: 1177 time_slice: 10 nr_running: 6 wcounts: 17352
+!task_tick||cpu: 0 pid: 1177 time_slice: 9 nr_running: 6 wcounts: 17502
+!task_tick||cpu: 0 pid: 1177 time_slice: 8 nr_running: 6 wcounts: 19718
+!task_tick||cpu: 0 pid: 1177 time_slice: 7 nr_running: 6 wcounts: 19920
+!task_tick||cpu: 0 pid: 1177 time_slice: 6 nr_running: 6 wcounts: 20030
+!task_tick||cpu: 0 pid: 1177 time_slice: 5 nr_running: 6 wcounts: 20054
+!task_tick||cpu: 0 pid: 1177 time_slice: 4 nr_running: 6 wcounts: 20218
+!task_tick||cpu: 0 pid: 1177 time_slice: 3 nr_running: 6 wcounts: 20238
+!task_tick||cpu: 0 pid: 1177 time_slice: 2 nr_running: 6 wcounts: 20356
+!task_tick||cpu: 0 pid: 1177 time_slice: 1 nr_running: 6 wcounts: 20577
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1172 time_slice: 19 nr_running: 6 wcounts: 14142
+!task_tick||cpu: 0 pid: 1172 time_slice: 18 nr_running: 6 wcounts: 14219
+!task_tick||cpu: 0 pid: 1172 time_slice: 17 nr_running: 6 wcounts: 14297
+!task_tick||cpu: 0 pid: 1172 time_slice: 16 nr_running: 6 wcounts: 14443
+!task_tick||cpu: 0 pid: 1172 time_slice: 15 nr_running: 6 wcounts: 14560
+!task_tick||cpu: 0 pid: 1172 time_slice: 14 nr_running: 6 wcounts: 14560
+!task_tick||cpu: 0 pid: 1172 time_slice: 13 nr_running: 6 wcounts: 14705
+!task_tick||cpu: 0 pid: 1172 time_slice: 12 nr_running: 6 wcounts: 14856
+!task_tick||cpu: 0 pid: 1172 time_slice: 11 nr_running: 6 wcounts: 15004
+!task_tick||cpu: 0 pid: 1172 time_slice: 10 nr_running: 6 wcounts: 15072
+!task_tick||cpu: 0 pid: 1172 time_slice: 9 nr_running: 6 wcounts: 15160
+!task_tick||cpu: 0 pid: 1172 time_slice: 8 nr_running: 6 wcounts: 15189
+!task_tick||cpu: 0 pid: 1172 time_slice: 7 nr_running: 6 wcounts: 15254
+!task_tick||cpu: 0 pid: 1172 time_slice: 6 nr_running: 6 wcounts: 15353
+!task_tick||cpu: 0 pid: 1172 time_slice: 5 nr_running: 6 wcounts: 15549
+!task_tick||cpu: 0 pid: 1172 time_slice: 4 nr_running: 6 wcounts: 15584
+!task_tick||cpu: 0 pid: 1172 time_slice: 3 nr_running: 6 wcounts: 15721
+!task_tick||cpu: 0 pid: 1172 time_slice: 2 nr_running: 6 wcounts: 15870
+!task_tick||cpu: 0 pid: 1172 time_slice: 1 nr_running: 6 wcounts: 15895
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1173 time_slice: 19 nr_running: 6 wcounts: 14692
+!task_tick||cpu: 0 pid: 1173 time_slice: 18 nr_running: 6 wcounts: 14912
+!task_tick||cpu: 0 pid: 1173 time_slice: 17 nr_running: 6 wcounts: 14942
+!task_tick||cpu: 0 pid: 1173 time_slice: 16 nr_running: 6 wcounts: 15086
+!task_tick||cpu: 0 pid: 1173 time_slice: 15 nr_running: 6 wcounts: 15240
+!task_tick||cpu: 0 pid: 1173 time_slice: 14 nr_running: 6 wcounts: 15263
+!task_tick||cpu: 0 pid: 1173 time_slice: 13 nr_running: 6 wcounts: 15449
+!task_tick||cpu: 0 pid: 1173 time_slice: 12 nr_running: 6 wcounts: 15509
+!task_tick||cpu: 0 pid: 1173 time_slice: 11 nr_running: 6 wcounts: 15601
+!task_tick||cpu: 0 pid: 1173 time_slice: 10 nr_running: 6 wcounts: 15819
+!task_tick||cpu: 0 pid: 1173 time_slice: 9 nr_running: 6 wcounts: 19225
+!task_tick||cpu: 0 pid: 1173 time_slice: 8 nr_running: 6 wcounts: 19264
+!task_tick||cpu: 0 pid: 1173 time_slice: 7 nr_running: 6 wcounts: 19361
+!task_tick||cpu: 0 pid: 1173 time_slice: 6 nr_running: 6 wcounts: 19438
+!task_tick||cpu: 0 pid: 1173 time_slice: 5 nr_running: 6 wcounts: 19561
+!task_tick||cpu: 0 pid: 1173 time_slice: 4 nr_running: 6 wcounts: 19894
+!task_tick||cpu: 0 pid: 1173 time_slice: 3 nr_running: 6 wcounts: 19982
+!task_tick||cpu: 0 pid: 1173 time_slice: 2 nr_running: 6 wcounts: 20334
+!task_tick||cpu: 0 pid: 1173 time_slice: 1 nr_running: 6 wcounts: 20370
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1174 time_slice: 19 nr_running: 6 wcounts: 13717
+!task_tick||cpu: 0 pid: 1174 time_slice: 18 nr_running: 6 wcounts: 13974
+!task_tick||cpu: 0 pid: 1174 time_slice: 17 nr_running: 6 wcounts: 13974
+!task_tick||cpu: 0 pid: 1174 time_slice: 16 nr_running: 6 wcounts: 14107
+!task_tick||cpu: 0 pid: 1174 time_slice: 15 nr_running: 6 wcounts: 14290
+!task_tick||cpu: 0 pid: 1174 time_slice: 14 nr_running: 6 wcounts: 14306
+!task_tick||cpu: 0 pid: 1174 time_slice: 13 nr_running: 6 wcounts: 14512
+!task_tick||cpu: 0 pid: 1174 time_slice: 12 nr_running: 6 wcounts: 14545
+!task_tick||cpu: 0 pid: 1174 time_slice: 11 nr_running: 6 wcounts: 14934
+!task_tick||cpu: 0 pid: 1174 time_slice: 10 nr_running: 6 wcounts: 21150
+!task_tick||cpu: 0 pid: 1174 time_slice: 9 nr_running: 6 wcounts: 21238
+!task_tick||cpu: 0 pid: 1174 time_slice: 8 nr_running: 6 wcounts: 21406
+!task_tick||cpu: 0 pid: 1174 time_slice: 7 nr_running: 6 wcounts: 21455
+!task_tick||cpu: 0 pid: 1174 time_slice: 6 nr_running: 6 wcounts: 21606
+!task_tick||cpu: 0 pid: 1174 time_slice: 5 nr_running: 6 wcounts: 21646
+!task_tick||cpu: 0 pid: 1174 time_slice: 4 nr_running: 6 wcounts: 22000
+!task_tick||cpu: 0 pid: 1174 time_slice: 3 nr_running: 6 wcounts: 22112
+!task_tick||cpu: 0 pid: 1174 time_slice: 2 nr_running: 6 wcounts: 22281
+!task_tick||cpu: 0 pid: 1174 time_slice: 1 nr_running: 6 wcounts: 22288
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1175 time_slice: 19 nr_running: 6 wcounts: 18354
+!task_tick||cpu: 0 pid: 1175 time_slice: 18 nr_running: 6 wcounts: 18372
+!task_tick||cpu: 0 pid: 1175 time_slice: 17 nr_running: 6 wcounts: 18466
+!task_tick||cpu: 0 pid: 1175 time_slice: 16 nr_running: 6 wcounts: 18946
+!task_tick||cpu: 0 pid: 1175 time_slice: 15 nr_running: 6 wcounts: 21496
+!task_tick||cpu: 0 pid: 1175 time_slice: 14 nr_running: 6 wcounts: 24986
+!task_tick||cpu: 0 pid: 1175 time_slice: 13 nr_running: 6 wcounts: 25056
+!task_tick||cpu: 0 pid: 1175 time_slice: 12 nr_running: 6 wcounts: 31621
+!task_tick||cpu: 0 pid: 1175 time_slice: 11 nr_running: 6 wcounts: 32859
+!task_tick||cpu: 0 pid: 1175 time_slice: 10 nr_running: 6 wcounts: 33526
+!task_tick||cpu: 0 pid: 1175 time_slice: 9 nr_running: 6 wcounts: 33709
+!task_tick||cpu: 0 pid: 1175 time_slice: 8 nr_running: 6 wcounts: 33854
+!task_tick||cpu: 0 pid: 1175 time_slice: 7 nr_running: 6 wcounts: 33998
+!task_tick||cpu: 0 pid: 1175 time_slice: 6 nr_running: 6 wcounts: 34101
+!task_tick||cpu: 0 pid: 1175 time_slice: 4 nr_running: 6 wcounts: 34811
+!task_tick||cpu: 0 pid: 1175 time_slice: 3 nr_running: 6 wcounts: 34812
+!task_tick||cpu: 0 pid: 1175 time_slice: 2 nr_running: 6 wcounts: 36328
+!task_tick||cpu: 0 pid: 1175 time_slice: 1 nr_running: 6 wcounts: 36434
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1176 time_slice: 10 nr_running: 6 wcounts: 24936
+!task_tick||cpu: 0 pid: 1176 time_slice: 9 nr_running: 6 wcounts: 25117
+!task_tick||cpu: 0 pid: 1176 time_slice: 8 nr_running: 6 wcounts: 25246
+!task_tick||cpu: 0 pid: 1176 time_slice: 7 nr_running: 6 wcounts: 25258
+!task_tick||cpu: 0 pid: 1176 time_slice: 6 nr_running: 6 wcounts: 26897
+!task_tick||cpu: 0 pid: 1176 time_slice: 5 nr_running: 6 wcounts: 26908
+!task_tick||cpu: 0 pid: 1176 time_slice: 4 nr_running: 6 wcounts: 27130
+!task_tick||cpu: 0 pid: 1176 time_slice: 3 nr_running: 6 wcounts: 27181
+!task_tick||cpu: 0 pid: 1176 time_slice: 2 nr_running: 6 wcounts: 28738
+healthd: battery l=50 v=0 t=0.0 h=2 st=2 chg=a
+!task_tick||cpu: 0 pid: 1176 time_slice: 1 nr_running: 6 wcounts: 29581
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1177 time_slice: 10 nr_running: 6 wcounts: 20613
+!task_tick||cpu: 0 pid: 1177 time_slice: 9 nr_running: 6 wcounts: 22982
+!task_tick||cpu: 0 pid: 1177 time_slice: 8 nr_running: 6 wcounts: 23075
+!task_tick||cpu: 0 pid: 1177 time_slice: 7 nr_running: 6 wcounts: 23385
+!task_tick||cpu: 0 pid: 1177 time_slice: 6 nr_running: 6 wcounts: 23406
+!task_tick||cpu: 0 pid: 1177 time_slice: 5 nr_running: 6 wcounts: 37243
+!task_tick||cpu: 0 pid: 1177 time_slice: 4 nr_running: 6 wcounts: 37381
+!task_tick||cpu: 0 pid: 1177 time_slice: 3 nr_running: 6 wcounts: 37401
+!task_tick||cpu: 0 pid: 1177 time_slice: 2 nr_running: 6 wcounts: 37799
+!task_tick||cpu: 0 pid: 1177 time_slice: 1 nr_running: 6 wcounts: 38014
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1172 time_slice: 19 nr_running: 6 wcounts: 15966
+!task_tick||cpu: 0 pid: 1172 time_slice: 18 nr_running: 6 wcounts: 16059
+!task_tick||cpu: 0 pid: 1172 time_slice: 17 nr_running: 6 wcounts: 16579
+!task_tick||cpu: 0 pid: 1172 time_slice: 16 nr_running: 6 wcounts: 17684
+!task_tick||cpu: 0 pid: 1172 time_slice: 15 nr_running: 6 wcounts: 17723
+!task_tick||cpu: 0 pid: 1172 time_slice: 14 nr_running: 6 wcounts: 17908
+!task_tick||cpu: 0 pid: 1172 time_slice: 13 nr_running: 6 wcounts: 18063
+!task_tick||cpu: 0 pid: 1172 time_slice: 12 nr_running: 6 wcounts: 18132
+!task_tick||cpu: 0 pid: 1172 time_slice: 11 nr_running: 6 wcounts: 18256
+!task_tick||cpu: 0 pid: 1172 time_slice: 10 nr_running: 6 wcounts: 24145
+!task_tick||cpu: 0 pid: 1172 time_slice: 9 nr_running: 6 wcounts: 24145
+!task_tick||cpu: 0 pid: 1172 time_slice: 8 nr_running: 6 wcounts: 24250
+!task_tick||cpu: 0 pid: 1172 time_slice: 7 nr_running: 6 wcounts: 24496
+!task_tick||cpu: 0 pid: 1172 time_slice: 6 nr_running: 6 wcounts: 24645
+!task_tick||cpu: 0 pid: 1172 time_slice: 5 nr_running: 6 wcounts: 24645
+!task_tick||cpu: 0 pid: 1172 time_slice: 4 nr_running: 6 wcounts: 27540
+!task_tick||cpu: 0 pid: 1172 time_slice: 3 nr_running: 6 wcounts: 31103
+!task_tick||cpu: 0 pid: 1172 time_slice: 2 nr_running: 6 wcounts: 31136
+!task_tick||cpu: 0 pid: 1172 time_slice: 1 nr_running: 6 wcounts: 36072
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1173 time_slice: 10 nr_running: 6 wcounts: 20467
+!task_tick||cpu: 0 pid: 1173 time_slice: 9 nr_running: 6 wcounts: 20557
+!task_tick||cpu: 0 pid: 1173 time_slice: 8 nr_running: 6 wcounts: 21790
+!task_tick||cpu: 0 pid: 1173 time_slice: 7 nr_running: 6 wcounts: 23147
+!task_tick||cpu: 0 pid: 1173 time_slice: 6 nr_running: 6 wcounts: 23162
+!task_tick||cpu: 0 pid: 1173 time_slice: 5 nr_running: 6 wcounts: 27335
+!task_tick||cpu: 0 pid: 1173 time_slice: 4 nr_running: 6 wcounts: 27360
+!task_tick||cpu: 0 pid: 1173 time_slice: 3 nr_running: 6 wcounts: 27491
+!task_tick||cpu: 0 pid: 1173 time_slice: 2 nr_running: 6 wcounts: 27684
+!task_tick||cpu: 0 pid: 1173 time_slice: 1 nr_running: 6 wcounts: 27691
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1174 time_slice: 10 nr_running: 6 wcounts: 22765
+!task_tick||cpu: 0 pid: 1174 time_slice: 9 nr_running: 6 wcounts: 26734
+!task_tick||cpu: 0 pid: 1174 time_slice: 8 nr_running: 6 wcounts: 26957
+!task_tick||cpu: 0 pid: 1174 time_slice: 7 nr_running: 6 wcounts: 27044
+!task_tick||cpu: 0 pid: 1174 time_slice: 6 nr_running: 6 wcounts: 43356
+!task_tick||cpu: 0 pid: 1174 time_slice: 5 nr_running: 6 wcounts: 43504
+!task_tick||cpu: 0 pid: 1174 time_slice: 4 nr_running: 6 wcounts: 44174
+!task_tick||cpu: 0 pid: 1174 time_slice: 3 nr_running: 6 wcounts: 44190
+!task_tick||cpu: 0 pid: 1174 time_slice: 2 nr_running: 6 wcounts: 44244
+!task_tick||cpu: 0 pid: 1174 time_slice: 1 nr_running: 6 wcounts: 44370
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1175 time_slice: 10 nr_running: 6 wcounts: 36504
+!task_tick||cpu: 0 pid: 1175 time_slice: 9 nr_running: 6 wcounts: 52622
+!task_tick||cpu: 0 pid: 1175 time_slice: 8 nr_running: 6 wcounts: 52626
+!task_tick||cpu: 0 pid: 1175 time_slice: 7 nr_running: 6 wcounts: 52820
+!task_tick||cpu: 0 pid: 1175 time_slice: 6 nr_running: 6 wcounts: 52920
+!task_tick||cpu: 0 pid: 1175 time_slice: 5 nr_running: 6 wcounts: 53485
+!task_tick||cpu: 0 pid: 1175 time_slice: 4 nr_running: 6 wcounts: 53808
+!task_tick||cpu: 0 pid: 1175 time_slice: 3 nr_running: 6 wcounts: 53862
+!task_tick||cpu: 0 pid: 1175 time_slice: 2 nr_running: 6 wcounts: 53881
+!task_tick||cpu: 0 pid: 1175 time_slice: 1 nr_running: 6 wcounts: 54023
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1176 time_slice: 10 nr_running: 6 wcounts: 29722
+!task_tick||cpu: 0 pid: 1176 time_slice: 9 nr_running: 6 wcounts: 29997
+!task_tick||cpu: 0 pid: 1176 time_slice: 8 nr_running: 6 wcounts: 30081
+!task_tick||cpu: 0 pid: 1176 time_slice: 7 nr_running: 6 wcounts: 30301
+!task_tick||cpu: 0 pid: 1176 time_slice: 6 nr_running: 6 wcounts: 46421
+!task_tick||cpu: 0 pid: 1176 time_slice: 5 nr_running: 6 wcounts: 46502
+!task_tick||cpu: 0 pid: 1176 time_slice: 4 nr_running: 6 wcounts: 47084
+!task_tick||cpu: 0 pid: 1176 time_slice: 3 nr_running: 6 wcounts: 47228
+!task_tick||cpu: 0 pid: 1176 time_slice: 2 nr_running: 6 wcounts: 47238
+!task_tick||cpu: 0 pid: 1176 time_slice: 1 nr_running: 6 wcounts: 47397
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1177 time_slice: 10 nr_running: 6 wcounts: 38074
+!task_tick||cpu: 0 pid: 1177 time_slice: 9 nr_running: 6 wcounts: 38167
+!task_tick||cpu: 0 pid: 1177 time_slice: 8 nr_running: 6 wcounts: 38642
+!task_tick||cpu: 0 pid: 1177 time_slice: 7 nr_running: 6 wcounts: 38852
+!task_tick||cpu: 0 pid: 1177 time_slice: 6 nr_running: 6 wcounts: 53367
+!task_tick||cpu: 0 pid: 1177 time_slice: 4 nr_running: 6 wcounts: 69764
+!task_tick||cpu: 0 pid: 1177 time_slice: 3 nr_running: 6 wcounts: 69836
+!task_tick||cpu: 0 pid: 1177 time_slice: 2 nr_running: 6 wcounts: 77985
+!task_tick||cpu: 0 pid: 1177 time_slice: 1 nr_running: 6 wcounts: 86366
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1172 time_slice: 10 nr_running: 6 wcounts: 36128
+!task_tick||cpu: 0 pid: 1172 time_slice: 9 nr_running: 6 wcounts: 53561
+!task_tick||cpu: 0 pid: 1172 time_slice: 8 nr_running: 6 wcounts: 53591
+!task_tick||cpu: 0 pid: 1172 time_slice: 7 nr_running: 6 wcounts: 53720
+!task_tick||cpu: 0 pid: 1172 time_slice: 6 nr_running: 6 wcounts: 53785
+!task_tick||cpu: 0 pid: 1172 time_slice: 5 nr_running: 6 wcounts: 58491
+!task_tick||cpu: 0 pid: 1172 time_slice: 4 nr_running: 6 wcounts: 58539
+!task_tick||cpu: 0 pid: 1172 time_slice: 3 nr_running: 6 wcounts: 59506
+!task_tick||cpu: 0 pid: 1172 time_slice: 2 nr_running: 6 wcounts: 59729
+!task_tick||cpu: 0 pid: 1172 time_slice: 1 nr_running: 6 wcounts: 59859
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1173 time_slice: 10 nr_running: 6 wcounts: 29638
+!task_tick||cpu: 0 pid: 1173 time_slice: 9 nr_running: 6 wcounts: 29826
+!task_tick||cpu: 0 pid: 1173 time_slice: 8 nr_running: 6 wcounts: 29899
+!task_tick||cpu: 0 pid: 1173 time_slice: 7 nr_running: 6 wcounts: 32957
+!task_tick||cpu: 0 pid: 1173 time_slice: 6 nr_running: 6 wcounts: 33111
+!task_tick||cpu: 0 pid: 1173 time_slice: 5 nr_running: 6 wcounts: 33139
+!task_tick||cpu: 0 pid: 1173 time_slice: 4 nr_running: 6 wcounts: 33295
+!task_tick||cpu: 0 pid: 1173 time_slice: 3 nr_running: 6 wcounts: 34027
+!task_tick||cpu: 0 pid: 1173 time_slice: 2 nr_running: 6 wcounts: 34413
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1174 time_slice: 10 nr_running: 6 wcounts: 44472
+!task_tick||cpu: 0 pid: 1174 time_slice: 9 nr_running: 6 wcounts: 44502
+!task_tick||cpu: 0 pid: 1174 time_slice: 8 nr_running: 6 wcounts: 44546
+!task_tick||cpu: 0 pid: 1174 time_slice: 7 nr_running: 6 wcounts: 44566
+!task_tick||cpu: 0 pid: 1174 time_slice: 6 nr_running: 6 wcounts: 44591
+!task_tick||cpu: 0 pid: 1174 time_slice: 5 nr_running: 6 wcounts: 59087
+!task_tick||cpu: 0 pid: 1174 time_slice: 4 nr_running: 6 wcounts: 59130
+!task_tick||cpu: 0 pid: 1174 time_slice: 3 nr_running: 6 wcounts: 60564
+!task_tick||cpu: 0 pid: 1174 time_slice: 2 nr_running: 6 wcounts: 60629
+!task_tick||cpu: 0 pid: 1174 time_slice: 1 nr_running: 6 wcounts: 60782
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1175 time_slice: 10 nr_running: 6 wcounts: 54411
+!task_tick||cpu: 0 pid: 1175 time_slice: 9 nr_running: 6 wcounts: 54605
+!task_tick||cpu: 0 pid: 1175 time_slice: 8 nr_running: 6 wcounts: 54788
+!task_tick||cpu: 0 pid: 1175 time_slice: 7 nr_running: 6 wcounts: 54970
+!task_tick||cpu: 0 pid: 1175 time_slice: 6 nr_running: 6 wcounts: 55074
+!task_tick||cpu: 0 pid: 1175 time_slice: 5 nr_running: 6 wcounts: 72286
+!task_tick||cpu: 0 pid: 1175 time_slice: 4 nr_running: 6 wcounts: 89964
+Dequeue An RAS Task!
+Set Current RAS Task!
+Enqueue An New RAS Task!
+init: Untracked pid 1175 exited with status 0
+!task_tick||cpu: 0 pid: 1176 time_slice: 10 nr_running: 6 wcounts: 50793
+!task_tick||cpu: 0 pid: 1176 time_slice: 9 nr_running: 6 wcounts: 50836
+!task_tick||cpu: 0 pid: 1176 time_slice: 8 nr_running: 6 wcounts: 50856
+!task_tick||cpu: 0 pid: 1176 time_slice: 7 nr_running: 6 wcounts: 51103
+!task_tick||cpu: 0 pid: 1176 time_slice: 6 nr_running: 6 wcounts: 53151
+!task_tick||cpu: 0 pid: 1176 time_slice: 5 nr_running: 6 wcounts: 53231
+!task_tick||cpu: 0 pid: 1176 time_slice: 4 nr_running: 6 wcounts: 53418
+!task_tick||cpu: 0 pid: 1176 time_slice: 3 nr_running: 6 wcounts: 53517
+!task_tick||cpu: 0 pid: 1176 time_slice: 2 nr_running: 6 wcounts: 53746
+!task_tick||cpu: 0 pid: 1176 time_slice: 1 nr_running: 6 wcounts: 54036
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1177 time_slice: 10 nr_running: 6 wcounts: 86404
+Dequeue An RAS Task!
+Set Current RAS Task!
+Enqueue An New RAS Task!
+!task_tick||cpu: 0 pid: 1177 time_slice: 10 nr_running: 6 wcounts: 100000
+!task_tick||cpu: 0 pid: 1172 time_slice: 10 nr_running: 6 wcounts: 60497
+!task_tick||cpu: 0 pid: 1172 time_slice: 9 nr_running: 6 wcounts: 77349
+!task_tick||cpu: 0 pid: 1172 time_slice: 8 nr_running: 6 wcounts: 77514
+!task_tick||cpu: 0 pid: 1172 time_slice: 7 nr_running: 6 wcounts: 82699
+!task_tick||cpu: 0 pid: 1172 time_slice: 6 nr_running: 6 wcounts: 84494
+!task_tick||cpu: 0 pid: 1172 time_slice: 5 nr_running: 6 wcounts: 84653
+!task_tick||cpu: 0 pid: 1172 time_slice: 4 nr_running: 6 wcounts: 84689
+!task_tick||cpu: 0 pid: 1172 time_slice: 3 nr_running: 6 wcounts: 84863
+!task_tick||cpu: 0 pid: 1172 time_slice: 2 nr_running: 6 wcounts: 85068
+!task_tick||cpu: 0 pid: 1172 time_slice: 1 nr_running: 6 wcounts: 85068
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1173 time_slice: 10 nr_running: 6 wcounts: 37944
+!task_tick||cpu: 0 pid: 1173 time_slice: 9 nr_running: 6 wcounts: 38195
+!task_tick||cpu: 0 pid: 1173 time_slice: 8 nr_running: 6 wcounts: 38655
+!task_tick||cpu: 0 pid: 1173 time_slice: 7 nr_running: 6 wcounts: 38736
+!task_tick||cpu: 0 pid: 1173 time_slice: 6 nr_running: 6 wcounts: 39336
+!task_tick||cpu: 0 pid: 1173 time_slice: 5 nr_running: 6 wcounts: 39904
+!task_tick||cpu: 0 pid: 1173 time_slice: 4 nr_running: 6 wcounts: 39958
+!task_tick||cpu: 0 pid: 1173 time_slice: 3 nr_running: 6 wcounts: 40100
+!task_tick||cpu: 0 pid: 1173 time_slice: 2 nr_running: 6 wcounts: 40200
+!task_tick||cpu: 0 pid: 1173 time_slice: 1 nr_running: 6 wcounts: 40447
+Requeue The Task!
+!task_tick||cpu: 0 pid: 1174 time_slice: 10 nr_running: 6 wcounts: 62026
+!task_tick||cpu: 0 pid: 1174 time_slice: 9 nr_running: 6 wcounts: 62052
+!task_tick||cpu: 0 pid: 1174 time_slice: 8 nr_running: 6 wcounts: 62474
+!task_tick||cpu: 0 pid: 1174 time_slice: 7 nr_running: 6 wcounts: 63242
+!task_tick||cpu: 0 pid: 1174 time_slice: 6 nr_running: 6 wcounts: 63247
+!task_tick||cpu: 0 pid: 1174 time_slice: 5 nr_running: 6 wcounts: 63377
+!task_tick||cpu: 0 pid: 1174 time_slice: 4 nr_running: 6 wcounts: 63823
+!task_tick||cpu: 0 pid: 1174 time_slice: 3 nr_running: 6 wcounts: 64317
+!task_tick||cpu: 0 pid: 1174 time_slice: 2 nr_running: 6 wcounts: 64340
+!task_tick||cpu: 0 pid: 1174 time_slice: 1 nr_running: 6 wcounts: 65076
+Requeue The Task!
+Dequeue An RAS Task!
+!task_tick||cpu: 0 pid: 1176 time_slice: 10 nr_running: 5 wcounts: 54037
+!task_tick||cpu: 0 pid: 1176 time_slice: 9 nr_running: 5 wcounts: 54478
+!task_tick||cpu: 0 pid: 1176 time_slice: 8 nr_running: 5 wcounts: 54510
+!task_tick||cpu: 0 pid: 1176 time_slice: 7 nr_running: 5 wcounts: 54593
+!task_tick||cpu: 0 pid: 1176 time_slice: 6 nr_running: 5 wcounts: 54782
+!task_tick||cpu: 0 pid: 1176 time_slice: 5 nr_running: 5 wcounts: 54954
+!task_tick||cpu: 0 pid: 1176 time_slice: 4 nr_running: 5 wcounts: 54954
+!task_tick||cpu: 0 pid: 1176 time_slice: 3 nr_running: 5 wcounts: 55950
+!task_tick||cpu: 0 pid: 1176 time_slice: 2 nr_running: 5 wcounts: 56329
+!task_tick||cpu: 0 pid: 1176 time_slice: 1 nr_running: 5 wcounts: 56350
+Requeue The Task!
+init: Untracked pid 1177 exited with status 0
+Dequeue An RAS Task!
+!task_tick||cpu: 0 pid: 1172 time_slice: 10 nr_running: 4 wcounts: 85181
+!task_tick||cpu: 0 pid: 1172 time_slice: 9 nr_running: 4 wcounts: 85393
+!task_tick||cpu: 0 pid: 1172 time_slice: 8 nr_running: 4 wcounts: 85477
+!task_tick||cpu: 0 pid: 1172 time_slice: 7 nr_running: 4 wcounts: 85594
+!task_tick||cpu: 0 pid: 1172 time_slice: 6 nr_running: 4 wcounts: 85619
+!task_tick||cpu: 0 pid: 1172 time_slice: 5 nr_running: 4 wcounts: 85719
+!task_tick||cpu: 0 pid: 1172 time_slice: 4 nr_running: 4 wcounts: 85948
+Dequeue An RAS Task!
+Set Current RAS Task!
+Enqueue An New RAS Task!
+!task_tick||cpu: 0 pid: 1172 time_slice: 10 nr_running: 4 wcounts: 100000
+!task_tick||cpu: 0 pid: 1173 time_slice: 10 nr_running: 4 wcounts: 43138
+!task_tick||cpu: 0 pid: 1173 time_slice: 9 nr_running: 4 wcounts: 60128
+!task_tick||cpu: 0 pid: 1173 time_slice: 8 nr_running: 4 wcounts: 76283
+!task_tick||cpu: 0 pid: 1173 time_slice: 7 nr_running: 4 wcounts: 93136
+!task_tick||cpu: 0 pid: 1173 time_slice: 6 nr_running: 4 wcounts: 98432
+!task_tick||cpu: 0 pid: 1173 time_slice: 5 nr_running: 4 wcounts: 98954
+Dequeue An RAS Task!
+Set Current RAS Task!
+Enqueue An New RAS Task!
+!task_tick||cpu: 0 pid: 1173 time_slice: 10 nr_running: 4 wcounts: 100000
+!task_tick||cpu: 0 pid: 1174 time_slice: 10 nr_running: 4 wcounts: 72431
+!task_tick||cpu: 0 pid: 1174 time_slice: 9 nr_running: 4 wcounts: 72573
+!task_tick||cpu: 0 pid: 1174 time_slice: 8 nr_running: 4 wcounts: 90449
+Dequeue An RAS Task!
+Set Current RAS Task!
+Enqueue An New RAS Task!
+init: Untracked pid 1174 exited with status 0
+!task_tick||cpu: 0 pid: 1176 time_slice: 10 nr_running: 4 wcounts: 56428
+!task_tick||cpu: 0 pid: 1176 time_slice: 9 nr_running: 4 wcounts: 61222
+!task_tick||cpu: 0 pid: 1176 time_slice: 8 nr_running: 4 wcounts: 63026
+!task_tick||cpu: 0 pid: 1176 time_slice: 7 nr_running: 4 wcounts: 78513
+!task_tick||cpu: 0 pid: 1176 time_slice: 6 nr_running: 4 wcounts: 78601
+!task_tick||cpu: 0 pid: 1176 time_slice: 5 nr_running: 4 wcounts: 78636
+!task_tick||cpu: 0 pid: 1176 time_slice: 4 nr_running: 4 wcounts: 96094
+Dequeue An RAS Task!
+Set Current RAS Task!
+Enqueue An New RAS Task!
+init: Untracked pid 1176 exited with status 0
+init: Untracked pid 1172 exited with status 0
+Dequeue An RAS Task!
+init: Untracked pid 1173 exited with status 0
+Dequeue An RAS Task!
+Dequeue An RAS Task!
+Dequeue An RAS Task!

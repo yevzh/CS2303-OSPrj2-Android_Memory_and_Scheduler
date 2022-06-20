@@ -1,0 +1,79 @@
+//////////////////////////////////////////////////////////////
+TERMINAL:
+
+root@generic:/data/misc/page_trace # ./page_trace
+Start memory trace testing program!
+28
+Task pid: 380, wcounts: 28,times: 28
+Task pid: 380, wcounts: 0,times: 28
+//////////////////////////////////////////////////////////////
+
+KERNEL:
+
+START TRACE!
+Current pid:1
+Set the trace flag:1
+Write counts:0
+WRITE FAULT!
+wcounts=1
+WRITE FAULT!
+wcounts=2
+WRITE FAULT!
+wcounts=3
+WRITE FAULT!
+wcounts=4
+WRITE FAULT!
+wcounts=5
+WRITE FAULT!
+wcounts=6
+WRITE FAULT!
+wcounts=7
+WRITE FAULT!
+wcounts=8
+WRITE FAULT!
+wcounts=9
+WRITE FAULT!
+wcounts=10
+WRITE FAULT!
+wcounts=11
+WRITE FAULT!
+wcounts=12
+WRITE FAULT!
+wcounts=13
+WRITE FAULT!
+wcounts=14
+WRITE FAULT!
+wcounts=15
+WRITE FAULT!
+wcounts=16
+WRITE FAULT!
+wcounts=17
+WRITE FAULT!
+wcounts=18
+WRITE FAULT!
+wcounts=19
+WRITE FAULT!
+wcounts=20
+WRITE FAULT!
+wcounts=21
+WRITE FAULT!
+wcounts=22
+WRITE FAULT!
+wcounts=23
+WRITE FAULT!
+wcounts=24
+WRITE FAULT!
+wcounts=25
+WRITE FAULT!
+wcounts=26
+WRITE FAULT!
+wcounts=27
+WRITE FAULT!
+wcounts=28
+GET TRACE! Current thread:380
+Get the current write counts:28
+STOP TRACE! Current thread:380
+Set the trace flag:0
+Write counts:0
+GET TRACE! Current thread:380
+Get the current write counts:0
